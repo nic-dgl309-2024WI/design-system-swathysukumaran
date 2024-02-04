@@ -5,3 +5,29 @@
     --clr-light: #CDCDCD;
     --clr-white: #FFFFFF;
 }
+
+/*Border box fix*/
+* {
+    box-sizing: border-box;
+}
+
+/*Reset margins*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+/*Remove padding from lists*/
+ul,
+ol,
+li {
+    padding: 0;
+}
