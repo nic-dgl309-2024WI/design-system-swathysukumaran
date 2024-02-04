@@ -1,9 +1,11 @@
-
+body{
+    padding-left: 16px;;
+}
 /* Top Nav */
 .c-top-navbar{
     overflow: hidden;
     position: relative;
-    padding: 14px 16px;
+    padding: 14px 0px; 
 }
 
 .c-top-navbar__logo{
@@ -18,13 +20,15 @@
     display: none;
 }
 .c-top-navbar__item {
-  
     display: block;
 }
-.c-top-navbar__link{
+.u-no-style-link{
     color: var(--clr-primary);
     text-decoration: none;
     font-size: 17px;
+}
+.u-li-padding{
+    padding-top:14px;
 }
 .c-top-navbar__link:hover {
     color: var(--clr-secondary);
@@ -43,4 +47,21 @@
     right: 0;
     top: 0;
     padding: 20px 20px;
+}
+
+/* Sidebar */
+
+.c-sidebar {
+    width: 200px;
+}
+
+.c-sidebar__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.c-sidebar__heading {
+    margin: 0;
+    padding-top: 10px ;
 }
