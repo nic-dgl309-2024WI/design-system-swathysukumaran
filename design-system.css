@@ -1,0 +1,21 @@
+/* Top Nav */
+.c-top-navbar{
+    overflow: hidden;
+}
+.c-top-navbar__logo {
+    color: var(--clr-primary);
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.c-top-navbar__nav{
+    display: none;
+}
+
+/* Set layout of Topnav */
+.l-flex{
+    display: flex;
+    justify-content: space-between;
+}
