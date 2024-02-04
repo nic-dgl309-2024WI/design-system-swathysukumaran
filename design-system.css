@@ -1,21 +1,46 @@
+
 /* Top Nav */
 .c-top-navbar{
     overflow: hidden;
+    position: relative;
+    padding: 14px 16px;
 }
-.c-top-navbar__logo {
+
+.c-top-navbar__logo{
     color: var(--clr-primary);
-    padding: 14px 14px;
+    
     text-decoration: none;
     font-size: 20px;
-    display: block;
+    
 }
 
 .c-top-navbar__nav{
     display: none;
 }
+.c-top-navbar__item {
+  
+    display: block;
+}
+.c-top-navbar__link{
+    color: var(--clr-primary);
+    text-decoration: none;
+    font-size: 17px;
+}
+.c-top-navbar__link:hover {
+    color: var(--clr-secondary);
+}
 
-/* Set layout of Topnav */
+/* Position top nav */
 .l-flex{
     display: flex;
     justify-content: space-between;
+}
+.c-top-navbar__hamburger-menu {
+    
+    color: var(--clr-primary);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 20px;
 }
