@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="design-system.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="navbar">
@@ -14,7 +15,11 @@
                 <h2 class="navbar__logo-text">Design System</h2>
             </a>
         </div>
-        <nav class="navbar__nav">
+        <!-- Hamburger button for mobile navbar -->
+        <button class="hamburger-menu" onclick="toggleMobileMenu()">
+            <i class="fa fa-bars"></i>
+        </button>
+        <nav class="navbar__nav" id="nav-menu">
             <ul class="navbar__list">
                 <li class="navbar__item"><a href="about-me.html" class="navbar__link">About Me</a></li>
                 <li class="navbar__item"><a href="#" class="navbar__link">Demo Site</a></li>
