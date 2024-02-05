@@ -10,7 +10,7 @@ body{
 
 .c-top-navbar__logo{
     color: var(--clr-primary);
-    
+    font-weight: 800;
     text-decoration: none;
     font-size: 20px;
     
@@ -30,8 +30,9 @@ body{
 .u-li-padding{
     padding-top:14px;
 }
-.c-top-navbar__link:hover {
-    color: var(--clr-secondary);
+.active,li:hover {
+    font-weight: 800;
+    color: var(--clr-accent);
 }
 
 /* Position top nav */
