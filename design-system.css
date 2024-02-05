@@ -1,17 +1,18 @@
 body{
-    padding-left: 16px;
+    
     color: var(--clr-primary);
+   
 }
 /* Top Nav */
 .c-top-navbar{
     overflow: hidden;
     position: relative;
-    padding: 14px 0px; 
-    background-color: var(--clr-navbar-bg);
+    padding: 14px 16px; 
+    
 }
 
 .c-top-navbar__logo{
-    color: var(--clr-primary);
+    color: var(--clr-white);
     font-weight: 800;
     text-decoration: none;
     font-size: 20px;

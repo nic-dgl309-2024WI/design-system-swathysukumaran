@@ -1,25 +1,48 @@
 /* Color Variables */
 :root {
-    --clr-primary: #333333;
+    /* --clr-primary: #272626;
     
     --clr-primary-bg: #F0F0F0;
     
-    --clr-accent: #FF5733;
+    --clr-accent: #FF6542;
     
     --clr-secondary-bg: #DADADA;
     
     --clr-secondary-text: #555555;
     
     --clr-accent-light: #FFAB99;
-   
+    --clr-bg-accent:#CCCCCC;
     --clr-accent-dark: #C23C12;
-    --clr-primary-bg-100: #F9F9F9;
+    --clr-primary-bg-100: #F9F9F9; */
+    --clr-primary: #35424D;
+    
+    --clr-primary-bg: #F5F5F5;
+    --clr-primary-bg-dark: #e9e7e7;
+    --clr-accent: #EA574E;
+    
+    --clr-secondary-bg: #A9D6E8;
+    
+    --clr-secondary-text: #800000;
+    
+    --clr-white: #FFFFFF;
+    
+    --clr-accent-light: #EB8E8E;
+    
+    --clr-bg-accent: #6D7C70;
+    
+    --clr-accent-dark: #EA4949;
+        
+        
     
 }
 
 /* Utility Classes */
 .text-primary {
     color: var(--clr-primary);
+}
+
+.text-white{
+    color:var(--clr-white);
 }
 
 .bg-primary {
@@ -31,7 +54,7 @@
 }
 
 .bg-accent {
-    background-color: var(--clr-accent);
+    background-color: var(--clr-bg-accent);
 }
 
 .text-secondary {
