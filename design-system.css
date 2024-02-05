@@ -66,3 +66,27 @@ body{
     margin: 0;
     padding-top: 10px ;
 }
+
+/* Styles for desktop view */
+@media screen and (min-width: 769px) {
+    
+
+    .c-top-navbar__logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    .c-top-navbar__nav,.c-top-navbar__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    
+    .c-top-navbar__hamburger-menu {
+        display: none;
+        /* Hide the hamburger icon on larger screens */
+    }
+
+}
