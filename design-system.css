@@ -70,7 +70,13 @@ body{
     margin: 0;
     padding-top: 10px ;
 }
-
+/* Swatches in colors.html */
+.c-swatch {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
 /* Styles for desktop view */
 @media screen and (min-width: 769px) {
     
