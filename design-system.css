@@ -1,11 +1,13 @@
 body{
-    padding-left: 16px;;
+    padding-left: 16px;
+    color: var(--clr-primary);
 }
 /* Top Nav */
 .c-top-navbar{
     overflow: hidden;
     position: relative;
     padding: 14px 0px; 
+    background-color: var(--clr-navbar-bg);
 }
 
 .c-top-navbar__logo{

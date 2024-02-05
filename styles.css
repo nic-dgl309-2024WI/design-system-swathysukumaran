@@ -1,11 +1,62 @@
+/* Color Variables */
 :root {
-    --clr-primary: #000000;
-    --clr-secondary: #A9A9A9;
-    --clr-accent: #A9A9A9;
-    --clr-light: #CDCDCD;
-    --clr-white: #FFFFFF;
+    --clr-primary: #333333;
+    
+    --clr-primary-bg: #F0F0F0;
+    
+    --clr-accent: #FF5733;
+    
+    --clr-secondary-bg: #DADADA;
+    
+    --clr-secondary-text: #555555;
+    
+    --clr-accent-light: #FFAB99;
+   
+    --clr-accent-dark: #C23C12;
+    --clr-primary-bg-100: #F9F9F9;
+    
 }
 
+/* Utility Classes */
+.text-primary {
+    color: var(--clr-primary);
+}
+
+.bg-primary {
+    background-color: var(--clr-primary-bg);
+}
+
+.text-accent {
+    color: var(--clr-accent);
+}
+
+.bg-accent {
+    background-color: var(--clr-accent);
+}
+
+.text-secondary {
+    color: var(--clr-secondary-text);
+}
+
+.bg-secondary {
+    background-color: var(--clr-secondary-bg);
+}
+
+.text-accent-light {
+    color: var(--clr-accent-light);
+}
+
+.bg-accent-light {
+    background-color: var(--clr-accent-light);
+}
+
+.text-accent-dark {
+    color: var(--clr-accent-dark);
+}
+
+.bg-accent-dark {
+    background-color: var(--clr-accent-dark);
+}
 /*Border box fix*/
 * {
     box-sizing: border-box;
