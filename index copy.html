@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="design-system.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-primary">
+    <header class="c-top-navbar bg-dark-primary ">
+        <div class="c-top-navbar__logo-container">
+            <div class="c-top-navbar__logo">
+                <a href="index.html" class="c-top-navbar__logo text-primary">
+                    Design System
+                </a>
+            </div>
+            <!-- Hamburger button for mobile navbar -->
+            <div class="c-top-navbar__hamburger-menu text-primary " onclick="toggleMobileMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+            <nav class="c-top-navbar__nav" id="nav-menu">
+                <ul class="c-top-navbar__list">
+                    <li class="u-li-padding c-top-navbar__item "><a href="about-me.html" class="u-no-style-link text-primary">About Me</a></li>
+                    <li class="u-li-padding c-top-navbar__item "><a href="#" class="u-no-style-link text-primary">Demo Site</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <!-- Sidebar -->
+    <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
+    <aside class="c-sidebar bg-dark-primary">
+        <nav class="c-sidebar__nav ">
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading">Your Brand</h3>
+                <ul class="c-sidebar__list " id="side-menu">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">01 Colors</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">02 Typography</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">03 Logo</a></li>
+                </ul>
+            </section>
+    
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading">Utilities</h3>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">04 Spacing</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">05 Containers</a></li>
+                </ul>
+            </section>
+    
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading">Navigation</h3>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">09 Navbars</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">10 Breadcrumbs</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">11 Pagination</a></li>
+                </ul>
+            </section>
+    
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading">Blocks</h3>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">12 Hero</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">13 Carousel</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">14 Slats</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">15 Footer</a></li>
+                </ul>
+            </section>
+    
+            <section class="c-sidebar__section">
+                <h3 class="c-c-sidebar__heading">Components</h3>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">16 Cards</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">17 Forms</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">18 Accordion</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link text-primary">19 Lists</a></li>
+                </ul>
+            </section>
+        </nav>
+    </aside>
+
+
+    <script src="design-system.js"></script>
+</body>
+</html>
