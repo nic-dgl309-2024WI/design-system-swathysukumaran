@@ -22,6 +22,7 @@ body{
 .c-top-navbar__item {
     display: block;
 }
+
 .u-no-style-link{
     color: var(--clr-primary);
     text-decoration: none;
@@ -30,7 +31,7 @@ body{
 .u-li-padding{
     padding-top:14px;
 }
-.active,li:hover {
+.active,a:hover {
     font-weight: 800;
     color: var(--clr-accent);
 }
