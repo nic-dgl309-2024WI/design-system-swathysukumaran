@@ -17,12 +17,12 @@
     --clr-primary: #35424D;
     
     --clr-primary-bg: #F5F5F5;
-    --clr-primary-bg-dark: #e9e7e7;
+    --clr-primary-bg-dark: #cdcdcd;
     --clr-accent: #EA574E;
     
     --clr-secondary-bg: #A9D6E8;
     
-    --clr-secondary-text: #800000;
+    --clr-secondary-text: #802000;
     
     --clr-white: #FFFFFF;
     
@@ -77,6 +77,9 @@
     color: var(--clr-accent-dark);
 }
 
+.bg-dark-primary{
+background-color: var(--clr-primary-bg-dark);
+}
 .bg-accent-dark {
     background-color: var(--clr-accent-dark);
 }
