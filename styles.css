@@ -2,10 +2,10 @@
 :root {
     
     --clr-primary: #35424D;
-    
+    --clr-secondary:#5c1802;
     --clr-primary-bg: #ffffff;
     --clr-primary-bg-dark: #EEFBFB;
-    --clr-accent: #EA574E;
+    --clr-accent: #D71D1D;
     
     --clr-secondary-bg: #A9D6E8;
     
@@ -27,7 +27,9 @@
 .text-primary {
     color: var(--clr-primary);
 }
-
+.text-secondary{
+    color:var(--clr-secondary);
+}
 .text-white{
     color:var(--clr-white);
 }
@@ -67,9 +69,7 @@
 .bg-dark-primary{
 background-color: var(--clr-primary-bg-dark);
 }
-.bg-accent-dark {
-    background-color: var(--clr-accent-dark);
-}
+
 /*Border box fix*/
 * {
     box-sizing: border-box;
