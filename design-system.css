@@ -36,7 +36,7 @@ body{
 }
 .active,a:hover {
     font-weight: 800;
-    color: var(--clr-secondary-text);
+    color: var(--clr-accent-dark);
 }
 
 /* Position top nav */
