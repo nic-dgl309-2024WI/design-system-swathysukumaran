@@ -1,19 +1,6 @@
 /* Color Variables */
 :root {
-    /* --clr-primary: #272626;
     
-    --clr-primary-bg: #F0F0F0;
-    
-    --clr-accent: #FF6542;
-    
-    --clr-secondary-bg: #DADADA;
-    
-    --clr-secondary-text: #555555;
-    
-    --clr-accent-light: #FFAB99;
-    --clr-bg-accent:#CCCCCC;
-    --clr-accent-dark: #C23C12;
-    --clr-primary-bg-100: #F9F9F9; */
     --clr-primary: #35424D;
     
     --clr-primary-bg: #ffffff;
@@ -22,7 +9,7 @@
     
     --clr-secondary-bg: #A9D6E8;
     
-    --clr-secondary-text: #802000;
+    --clr-accent-dark: #802000;
     
     --clr-white: #FFFFFF;
     
@@ -30,7 +17,7 @@
     
     --clr-bg-accent: #6D7C70;
     
-    --clr-accent-dark: #EA4949;
+    
         
         
     
