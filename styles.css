@@ -9,10 +9,29 @@
     --clr-secondary-bg: #fdf6f6;  
     --clr-primary-bg-dark:#e5f7fa;
     --clr-white: #FFFFFF;
+
+
+    /* font variables */
+        --font-heading: 'Montserrat', sans-serif;
+        --font-body: 'Roboto', sans-serif;
+        --font-size-h1: 2.5rem;
+        --font-size-h2: 2rem;
+        --font-size-h3: 1.5rem;
+        --font-size-body: 1rem;
+        --font-weight-normal: 400;
+        --font-weight-medium: 500;
+        --font-weight-semi-bold: 600;
+        --font-weight-bold: 700;
+        --line-height-heading: 1.2;
+        --line-height-body: 1.5;
+        --letter-spacing-heading: 0.05em;
+        --letter-spacing-body: 0.02em;
+        --color-heading: #333333;
+        --color-body: #666666;
     
 }
 
-/* Utility Classes */
+/* Utility Classes for colors */
 
 .text-primary {
     color: var(--clr-primary);
