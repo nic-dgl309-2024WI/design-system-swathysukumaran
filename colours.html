@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="bg-primary">
-    <header class="c-top-navbar bg-dark-primary ">
+    <header class="c-top-navbar bg-primary-dark ">
         <div class="c-top-navbar__logo-container">
             <div class="c-top-navbar__logo">
                 <a href="index.html" class="c-top-navbar__logo text-primary">
@@ -32,7 +32,7 @@
 
     <!-- Sidebar -->
     <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
-    <aside class="c-sidebar bg-dark-primary">
+    <aside class="c-sidebar bg-primary-dark">
         <nav class="c-sidebar__nav ">
             <section class="c-sidebar__section">
                 <h3 class="c-sidebar__heading">Your Brand</h3>
@@ -86,7 +86,7 @@
             <h2>Primary Colors</h2>
             <div class="c-swatch text-primary">
                 <div class="name">.text-primary</div>
-                <div class="hex">#35424D</div>
+                <div class="hex">#333333</div>
                 <div class="uses">
                     <ul>
                         <li>Headings</li>
@@ -96,7 +96,7 @@
             </div>
             <div class="c-swatch text-secondary">
                 <div class="name">.text-secondary</div>
-                <div class="hex">#5c1802</div>
+                <div class="hex">#260c09</div>
                 <div class="uses">
                     <ul>
                         
@@ -107,7 +107,7 @@
         
             <div class="c-swatch bg-primary">
                 <div class="name">.bg-primary</div>
-                <div class="hex">#FFFFFF</div>
+                <div class="hex">#F5FCFD</div>
                 <div class="uses">
                     <ul>
                         <li>Backgrounds</li>
@@ -115,12 +115,21 @@
                 </div>
             </div>
         
-            <div class="c-swatch bg-dark-primary">
-                <div class="name">.bg-dark-primary</div>
-                <div class="hex">#EEFBFB</div>
+            <div class="c-swatch bg-secondary ">
+                <div class="name">.bg-secondary</div>
+                <div class="hex">#fdf6f6</div>
                 <div class="uses">
                     <ul>
-                        <li>Dark Backgrounds for navbar</li>
+                        <li>Different Background for different sections.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="c-swatch bg-primary-dark ">
+                <div class="name">.bg-primary-dark</div>
+                <div class="hex">#e5f7fa</div>
+                <div class="uses">
+                    <ul>
+                        <li>Darker shade of primary background color for differentiation.</li>
                     </ul>
                 </div>
             </div>
@@ -128,57 +137,31 @@
         
         <section>
             <h2>Accent Colors</h2>
-            <div class="c-swatch text-accent">
-                <div class="name">.text-accent</div>
-                <div class="hex">#D71D1D</div>
+           
+        
+            <div class="c-swatch accent-color">
+                <div class="name">.accent-color</div>
+                <div class="hex">#b4382b</div>
                 <div class="uses">
                     <ul>
-                        <li>Buttons</li>
-                        <li>Highlighted Text</li>
+                        <li>For buttons, and active links</li>
                     </ul>
                 </div>
             </div>
         
-            <div class="c-swatch bg-accent">
-                <div class="name">.bg-accent</div>
-                <div class="hex">#6D7C70</div>
+            <div class="c-swatch accent-secondary-color">
+                <div class="name">.accent-secondary-color</div>
+                <div class="hex">#1b6c74</div>
                 <div class="uses">
                     <ul>
-                        <li>Accent Backgrounds for special purposes</li>
+                        <li>Highlighted texts</li>
                     </ul>
                 </div>
             </div>
         
-            <div class="c-swatch text-accent-light">
-                <div class="name">.text-accent-light</div>
-                <div class="hex">#EB8E8E</div>
-                <div class="uses">
-                    <ul>
-                        <li>Subtle Highlights</li>
-                    </ul>
-                </div>
-            </div>
+            
         
-            <div class="c-swatch bg-accent-light">
-                <div class="name">.bg-accent-light</div>
-                <div class="hex">#EB8E8E</div>
-                <div class="uses">
-                    <ul>
-                        <li>Light Accent Backgrounds</li>
-                    </ul>
-                </div>
-            </div>
-        
-            <div class="c-swatch text-accent-dark">
-                <div class="name">.text-accent-dark</div>
-                <div class="hex">#EA4949</div>
-                <div class="uses">
-                    <ul>
-                        <li>Dark Accent Text</li>
-                    </ul>
-                </div>
-            </div>
-        
+           
             
         </section>
 
@@ -192,39 +175,44 @@
                     <th>Contrast</th>
                 </tr>
                 <tr>
-                    <td>#FFFFFF</td>
-                    <td>#35424D</td>
-                    <td>10.3:1</td>
+                    <td>#F5FCFD</td>
+                    <td>#333333</td>
+                    <td>12.16:1</td>
                 </tr>
                 <tr>
-                    <td>#FFFFFF</td>
-                    <td>#D71D1D</td>
-                    <td>5.14:1</td>
+                    <td>#F5FCFD</td>
+                    <td>#260C09</td>
+                    <td>17.75:1</td>
                 </tr>
                 <tr>
-                    <td>#FFFFFF</td>
-                    <td>#802000</td>
-                    <td>9.88:1</td>
+                    <td>#F5FCFD</td>
+                    <td>#B4382B</td>
+                    <td>5.71:1</td>
                 </tr>
                 <tr>
-                    <td>#FFFFFF</td>
-                    <td>#6D7C70</td>
-                    <td>4.4:1</td>
+                    <td>#F5FCFD</td>
+                    <td>#1b6c74</td>
+                    <td>5.87:1 </td>
                 </tr>
                 <tr>
-                    <td>#A9D6E8</td>
-                    <td>#35424D</td>
-                    <td>6.61:1</td>
+                    <td>#fdf6f6</td>
+                    <td>#1b6c74</td>
+                    <td>5.71:1</td>
                 </tr>
                 <tr>
-                    <td>#A9D6E8</td>
-                    <td>#5C1802</td>
-                    <td>8.49:1</td>
+                    <td>#fdf6f6</td>
+                    <td>#260c09</td>
+                    <td>17.28:1</td>
                 </tr>
                 <tr>
-                    <td>#EEFBFB</td>
-                    <td>#802000</td>
-                    <td>9.33:1</td>
+                    <td>#fdf6f6</td>
+                    <td>#b4382b</td>
+                    <td>5.56:1</td>
+                </tr>
+                <tr>
+                    <td>#fdf6f6</td>
+                    <td>#1b6c74</td>
+                    <td>5.71:1</td>
                 </tr>
             </table>
 
