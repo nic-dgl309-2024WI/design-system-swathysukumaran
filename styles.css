@@ -64,6 +64,41 @@
     color: var(--clr-white);
 }
 
+/* Utiliy classes for font */
+.heading {
+    font-family: var(--font-heading);
+    color: var(--color-heading);
+    letter-spacing: var(--letter-spacing-heading);
+}
+
+.body-text {
+    font-family: var(--font-body);
+    color: var(--color-body);
+    letter-spacing: var(--letter-spacing-body);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-body);
+}
+
+.heading-1 {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: var(--line-height-heading);
+}
+.heading-2 {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: var(--line-height-heading);
+}
+
+.heading-3 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: var(--line-height-heading);
+}
+
+
+
 /*Border box fix*/
 * {
     box-sizing: border-box;
