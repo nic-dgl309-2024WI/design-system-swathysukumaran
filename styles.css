@@ -19,7 +19,7 @@
         --font-size-h1: 2.5rem;
         --font-size-h2: 2rem;
         --font-size-h3: 1.5rem;
-        --font-size-body: 1rem;
+        --font-size-body: 1.2rem;
         --font-weight-normal: 400;
         --font-weight-medium: 500;
         --font-weight-semi-bold: 600;
@@ -67,13 +67,13 @@
 }
 
 /* Utiliy classes for font */
-.heading {
+.u-heading {
     font-family: var(--font-heading);
     color: var(--color-heading);
     letter-spacing: var(--letter-spacing-heading);
 }
 
-.body-text {
+.u-body-text {
     font-family: var(--font-body);
     color: var(--color-body);
     letter-spacing: var(--letter-spacing-body);
@@ -82,18 +82,18 @@
     line-height: var(--line-height-body);
 }
 
-.heading-1 {
+.u-heading-1 {
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight-semi-bold);
     line-height: var(--line-height-heading);
 }
-.heading-2 {
+.u-heading-2 {
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-semi-bold);
     line-height: var(--line-height-heading);
 }
 
-.heading-3 {
+.u-heading-3 {
     font-size: var(--font-size-h3);
     font-weight: var(--font-weight-semi-bold);
     line-height: var(--line-height-heading);
@@ -125,4 +125,10 @@ ul,
 ol,
 li {
     padding: 0;
+}
+
+/* General utility classes */
+
+.u-vertical-margin-20{
+    margin: 20px 0px;
 }
