@@ -36,34 +36,34 @@
 
 /* Utility Classes for colors */
 
-.text-primary {
+.u-text-primary {
     color: var(--clr-primary);
 }
 
-.text-secondary {
+.u-text-secondary {
     color: var(--clr-secondary);
 }
 
-.bg-primary {
+.u-bg-primary {
     background-color: var(--clr-primary-bg);
 }
 
-.accent-color {
+.u-accent-color {
     color: var(--clr-accent);
 }
 
-.accent-secondary-color {
+.u-accent-secondary-color {
     color: var(--clr-accent-secondary);
 }
 
-.bg-secondary {
+.u-bg-secondary {
     background-color: var(--clr-secondary-bg);
 }
-.bg-secondary-2 {
+.u-bg-secondary-2 {
     background-color: var(--clr-secondary-bg-2);
 }
 
-.text-white {
+.u-text-white {
     color: var(--clr-white);
 }
 
