@@ -51,9 +51,11 @@
 .u-accent-color {
     color: var(--clr-accent);
 }
-
-.u-accent-secondary-color {
-    color: var(--clr-accent-secondary);
+.u-bg-accent-color {
+    background-color: var(--clr-accent);
+}
+.u-bg-accent-secondary-color {
+    background-color: var(--clr-accent-secondary);
 }
 
 .u-bg-secondary {
