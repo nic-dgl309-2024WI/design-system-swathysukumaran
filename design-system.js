@@ -5,6 +5,9 @@ function toggleMobileMenu() {
     } else {
         x.style.display = "block";
     }
+    var icon = document.getElementById("toggle-icon");
+    icon.classList.toggle("fa-bars");
+    icon.classList.toggle("fa-times");
 }
 
 //Refered https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_active_element
