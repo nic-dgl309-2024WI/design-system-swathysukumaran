@@ -36,6 +36,7 @@ body{
 }
 .active,a:hover {
     font-weight: 800;
+    text-decoration: underline;
     color: var(--clr-accent);
 }
 
@@ -76,6 +77,12 @@ body{
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
+}
+.c-swatch__colorBlock{
+    height:100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
 }
 /* Styles for desktop view */
 @media screen and (min-width: 769px) {

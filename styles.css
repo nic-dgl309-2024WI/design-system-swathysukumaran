@@ -5,11 +5,12 @@
     
     --clr-primary: #333333;
     --clr-secondary:#260c09;
-    --clr-primary-bg: #F5FCFD; 
+    --clr-primary-bg:#FFFFFF;
+    
     --clr-accent: #b4382b;
     --clr-accent-secondary:#1b6c74;
     --clr-secondary-bg: #fdf6f6;  
-    --clr-primary-bg-dark:#e5f7fa;
+    --clr-secondary-bg-2:#F5FCFD;;
     --clr-white: #FFFFFF;
 
 
@@ -58,8 +59,8 @@
 .bg-secondary {
     background-color: var(--clr-secondary-bg);
 }
-.bg-primary-dark {
-    background-color: var(--clr-primary-bg-dark);
+.bg-secondary-2 {
+    background-color: var(--clr-secondary-bg-2);
 }
 
 .text-white {

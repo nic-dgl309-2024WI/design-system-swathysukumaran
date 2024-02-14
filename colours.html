@@ -10,7 +10,7 @@
    
 </head>
 <body class="bg-primary">
-    <header class="c-top-navbar bg-primary-dark ">
+    <header class="c-top-navbar bg-secondary-2 ">
         <div class="c-top-navbar__logo-container">
             <div class="c-top-navbar__logo">
                 <a href="index.html" class="c-top-navbar__logo text-primary  u-heading u-heading-3">
@@ -35,7 +35,7 @@
     
     <!-- Sidebar -->
     <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
-    <aside class="c-sidebar bg-primary-dark">
+    <aside class="c-sidebar bg-secondary-2">
         <nav class="c-sidebar__nav ">
             <section class="c-sidebar__section">
                 <h3 class="c-sidebar__heading u-heading u-heading-3">Your Brand</h3>
@@ -94,6 +94,7 @@
         </nav>
     </aside>
     <main>
+        <!-- COLOR SWATCHES -->
         <section>
             <h2>Primary Colors</h2>
             <div class="c-swatch text-primary">
@@ -105,6 +106,9 @@
                         <li>Body Text</li>
                     </ul>
                 </div>
+                <div class="c-swatch__colorBlock" style="background-color: #333333;">
+                
+                </div>
             </div>
             <div class="c-swatch text-secondary">
                 <div class="name">.text-secondary</div>
@@ -115,15 +119,21 @@
                         <li>Body Text in different sections</li>
                     </ul>
                 </div>
+                <div class="c-swatch__colorBlock" style="background-color: #260c09;">
+                
+                </div>
             </div>
         
             <div class="c-swatch bg-primary">
                 <div class="name">.bg-primary</div>
-                <div class="hex">#F5FCFD</div>
+                <div class="hex">#FFFFFF</div>
                 <div class="uses">
                     <ul>
                         <li>Backgrounds</li>
                     </ul>
+                </div>
+                <div class="c-swatch__colorBlock" style="background-color: #FFFFFF;">
+                
                 </div>
             </div>
         
@@ -135,14 +145,20 @@
                         <li>Different Background for different sections.</li>
                     </ul>
                 </div>
+                <div class="c-swatch__colorBlock" style="background-color: #fdf6f6;">
+                
+                </div>
             </div>
-            <div class="c-swatch bg-primary-dark ">
-                <div class="name">.bg-primary-dark</div>
-                <div class="hex">#e5f7fa</div>
+            <div class="c-swatch bg-secondary-2 ">
+                <div class="name">.bg-secondary-2</div>
+                <div class="hex">#F5FCFD</div>
                 <div class="uses">
                     <ul>
-                        <li>Darker shade of primary background color for differentiation.</li>
+                        <li>To use a background for different blocks</li>
                     </ul>
+                </div>
+                <div class="c-swatch__colorBlock" style="background-color: #F5FCFD;">
+                
                 </div>
             </div>
         </section>
@@ -159,6 +175,9 @@
                         <li>For buttons, and active links</li>
                     </ul>
                 </div>
+                <div class="c-swatch__colorBlock" style="background-color: #b4382b;">
+                
+                </div>
             </div>
         
             <div class="c-swatch accent-secondary-color">
@@ -169,6 +188,9 @@
                         <li>Highlighted texts</li>
                     </ul>
                 </div>
+                <div class="c-swatch__colorBlock" style="background-color: #1b6c74;">
+
+                </div>
             </div>
         
             
@@ -177,6 +199,7 @@
             
         </section>
 
+        <!-- COLOR CONTRAST CHECK -->
         <section>
             <h2>Combinations</h2>
 
@@ -185,6 +208,21 @@
                     <th>Background</th>
                     <th>Foreground</th>
                     <th>Contrast</th>
+                </tr>
+                <tr>
+                    <td>#FFFFFF</td>
+                    <td>#333333</td>
+                    <td>12.63:1</td>
+                </tr>
+                <tr>
+                    <td>#FFFFFF</td>
+                    <td>#B4382B</td>
+                    <td>5.93:1</td>
+                </tr>
+                <tr>
+                    <td>#F5FCFD</td>
+                    <td>#333333</td>
+                    <td>12.16:1</td>
                 </tr>
                 <tr>
                     <td>#F5FCFD</td>
