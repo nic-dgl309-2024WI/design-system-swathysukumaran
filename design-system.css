@@ -71,6 +71,7 @@ body{
     margin: 0;
     padding-top: 10px ;
 }
+
 /* Swatches in colors.html */
 .c-swatch {
     display: inline-block;
@@ -84,6 +85,7 @@ body{
     border-radius: 50px;
     border: 1px solid black;
 }
+
 /* Styles for desktop view */
 @media screen and (min-width: 769px) {
     

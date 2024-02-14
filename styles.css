@@ -29,8 +29,7 @@
         --line-height-body: 1.5;
         --letter-spacing-heading: 0.05em;
         --letter-spacing-body: 0.02em;
-        --color-heading: #333333;
-        --color-body: #666666;
+        
     
 }
 
@@ -72,13 +71,12 @@
 /* Utiliy classes for font */
 .u-heading {
     font-family: var(--font-heading);
-    color: var(--color-heading);
+    
     letter-spacing: var(--letter-spacing-heading);
 }
 
 .u-body-text {
     font-family: var(--font-body);
-    color: var(--color-body);
     letter-spacing: var(--letter-spacing-body);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-normal);
@@ -135,7 +133,9 @@ li {
 .u-vertical-margin-20{
     margin: 20px 0px;
 }
-
+.u-margin-20{
+    margin:20px;
+}
 .u-padding-25{
     padding:25px;
 }
