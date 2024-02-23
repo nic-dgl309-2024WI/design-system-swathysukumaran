@@ -72,32 +72,21 @@
 .u-heading {
     font-family: var(--font-heading);
     
-    letter-spacing: var(--letter-spacing-heading);
 }
 
 .u-body-text {
     font-family: var(--font-body);
-    letter-spacing: var(--letter-spacing-body);
-    font-size: var(--font-size-body);
-    font-weight: var(--font-weight-normal);
-    line-height: var(--line-height-body);
 }
 
 .u-heading-1 {
     font-size: var(--font-size-h1);
-    font-weight: var(--font-weight-semi-bold);
-    line-height: var(--line-height-heading);
 }
 .u-heading-2 {
     font-size: var(--font-size-h2);
-    font-weight: var(--font-weight-semi-bold);
-    line-height: var(--line-height-heading);
 }
 
 .u-heading-3 {
     font-size: var(--font-size-h3);
-    font-weight: var(--font-weight-semi-bold);
-    line-height: var(--line-height-heading);
 }
 
 
