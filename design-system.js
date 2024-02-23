@@ -1,9 +1,13 @@
 function toggleMobileMenu() {
     var x = document.getElementById("nav-menu");
+    var sidebar = document.getElementById("sidebar");
     if (x.style.display === "block") {
         x.style.display = "none";
+        sidebar.style.display = "none";
+
     } else {
         x.style.display = "block";
+        sidebar.style.display = "flex";
     }
     var icon = document.getElementById("toggle-icon");
     icon.classList.toggle("fa-bars");

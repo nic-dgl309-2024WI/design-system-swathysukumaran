@@ -59,6 +59,7 @@ body{
 
 .c-sidebar {
     width: 200px;
+    display: none;
 }
 
 .c-sidebar__list{
@@ -102,6 +103,9 @@ body{
         gap: 20px;
     }
 
+    .c-sidebar{
+        display: flex;
+    }
     
     .c-top-navbar__hamburger-menu {
         display: none;
