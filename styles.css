@@ -41,6 +41,12 @@
     /* Text color primary */
 }
 
+.u-bg-text1{
+    background-color: var(--clr-primary);
+}
+.u-bg-text2{
+    background-color: var(--clr-secondary);
+}
 .u-text-secondary {
     color: var(--clr-secondary);
     /* Text color secondary */
@@ -55,6 +61,7 @@
     color: var(--clr-accent);
     /* Accent color */
 }
+
 
 .u-bg-accent-color {
     background-color: var(--clr-accent);
