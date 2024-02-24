@@ -5,18 +5,16 @@
 /* Color Variables */
 :root {
     /* Primary Colors */
-    --clr-primary: #333333;
-    --clr-secondary: #260c09;
-    --clr-primary-bg: #FFFFFF;
+    --clr-primary: #2b2c34;
+    --clr-primary-bg: #fffffe;
 
     /* Accent Colors */
-    --clr-accent: #b4382b;
-    --clr-accent-secondary: #1b6c74;
+    --clr-accent: #6246ea;
+    --clr-accent-secondary: #DB0000;
 
     /* Background Colors */
-    --clr-secondary-bg: #fdf6f6;
-    --clr-secondary-bg-2: #F5FCFD;
-    --clr-white: #FFFFFF;
+    --clr-secondary-bg: #d1d1e9;
+  
 
     /* Font variables */
     --font-heading: 'Playfair Display', serif;
@@ -44,13 +42,7 @@
 .u-bg-text1{
     background-color: var(--clr-primary);
 }
-.u-bg-text2{
-    background-color: var(--clr-secondary);
-}
-.u-text-secondary {
-    color: var(--clr-secondary);
-    /* Text color secondary */
-}
+
 
 .u-bg-primary {
     background-color: var(--clr-primary-bg);
@@ -60,6 +52,10 @@
 .u-accent-color {
     color: var(--clr-accent);
     /* Accent color */
+}
+
+.u-accent-secondary{
+    color:var(--clr-accent-secondary);
 }
 
 
@@ -78,15 +74,6 @@
     /* Background color secondary */
 }
 
-.u-bg-secondary-2 {
-    background-color: var(--clr-secondary-bg-2);
-    /* Background color secondary 2 */
-}
-
-.u-text-white {
-    color: var(--clr-white);
-    /* Text color white */
-}
 
 /* Utiliy classes for font */
 .u-heading {
