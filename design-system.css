@@ -1,68 +1,74 @@
-body{
-    
+body {
     color: var(--clr-primary);
-   
-}
-/* Top Nav */
-.c-top-navbar{
-    overflow: hidden;
-    position: relative;
-    padding: 14px 16px; 
-    
+    /* Body text color */
 }
 
-.c-top-navbar__logo{
-    
+/* Top Nav */
+.c-top-navbar {
+    overflow: hidden;
+    position: relative;
+    padding: 14px 16px;
+    /* Padding for top navbar */
+}
+
+.c-top-navbar__logo {
     font-weight: 800;
     text-decoration: none;
     font-size: 20px;
-    
+    /* Font size for top navbar logo */
 }
 
-.c-top-navbar__nav{
+.c-top-navbar__nav {
     display: none;
+    /* Hide navigation items by default */
 }
+
 .c-top-navbar__item {
     display: block;
 }
 
-.u-no-style-link{
-    
+.u-no-style-link {
     text-decoration: none;
     font-size: 17px;
+    /* Font size for links with no style */
 }
-.u-li-padding{
-    padding-top:14px;
+
+.u-li-padding {
+    padding-top: 14px;
+    /* Padding for list items */
 }
-.active,a:hover {
+
+.active,
+a:hover {
     font-weight: 800;
     text-decoration: underline;
     color: var(--clr-accent);
+    /* Styling for active or hovered links */
 }
 
 /* Position top nav */
-.l-flex{
+.l-flex {
     display: flex;
     justify-content: space-between;
 }
+
 .c-top-navbar__hamburger-menu {
-    
-   
     display: block;
     position: absolute;
     right: 0;
     top: 0;
     padding: 20px 20px;
+    /* Padding for hamburger menu */
 }
 
 /* Sidebar */
-
 .c-sidebar {
     width: 200px;
     display: none;
+    /* Hide sidebar by default */
 }
 
-.c-sidebar__list{
+.c-sidebar__list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -70,7 +76,8 @@ body{
 
 .c-sidebar__heading {
     margin: 0;
-    padding-top: 10px ;
+    padding-top: 10px;
+    /* Padding for sidebar heading */
 }
 
 /* Swatches in colors.html */
@@ -80,8 +87,9 @@ body{
     padding: 10px;
     border: 1px solid #ccc;
 }
-.c-swatch__colorBlock{
-    height:100px;
+
+.c-swatch__colorBlock {
+    height: 100px;
     width: 100px;
     border-radius: 50px;
     border: 1px solid black;
@@ -89,27 +97,25 @@ body{
 
 /* Styles for desktop view */
 @media screen and (min-width: 769px) {
-    
-
     .c-top-navbar__logo-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    } 
+    }
 
-    .c-top-navbar__nav,.c-top-navbar__list {
+    .c-top-navbar__nav,
+    .c-top-navbar__list {
         display: flex;
         align-items: center;
         gap: 20px;
     }
 
-    .c-sidebar{
+    .c-sidebar {
         display: flex;
     }
-    
+
     .c-top-navbar__hamburger-menu {
         display: none;
         /* Hide the hamburger icon on larger screens */
     }
-
 }

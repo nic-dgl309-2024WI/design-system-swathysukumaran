@@ -1,130 +1,164 @@
- @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap');
+
 /* Color Variables */
 :root {
-    
+    /* Primary Colors */
     --clr-primary: #333333;
-    --clr-secondary:#260c09;
-    --clr-primary-bg:#FFFFFF;
-    
+    --clr-secondary: #260c09;
+    --clr-primary-bg: #FFFFFF;
+
+    /* Accent Colors */
     --clr-accent: #b4382b;
-    --clr-accent-secondary:#1b6c74;
-    --clr-secondary-bg: #fdf6f6;  
-    --clr-secondary-bg-2:#F5FCFD;;
+    --clr-accent-secondary: #1b6c74;
+
+    /* Background Colors */
+    --clr-secondary-bg: #fdf6f6;
+    --clr-secondary-bg-2: #F5FCFD;
     --clr-white: #FFFFFF;
 
-
-    /* font variables */
-        --font-heading: 'Playfair Display', serif;
-        --font-body:'Verdana',
-            sans-serif;
-        --font-size-h1: 2.5rem;
-        --font-size-h2: 2rem;
-        --font-size-h3: 1.5rem;
-        --font-size-body: 1.2rem;
-        --font-weight-normal: 400;
-        --font-weight-medium: 500;
-        --font-weight-semi-bold: 600;
-        --font-weight-bold: 700;
-        --line-height-heading: 1.2;
-        --line-height-body: 1.5;
-        --letter-spacing-heading: 0.05em;
-        --letter-spacing-body: 0.02em;
-        
-    
+    /* Font variables */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Verdana', sans-serif;
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 2rem;
+    --font-size-h3: 1.5rem;
+    --font-size-body: 1.2rem;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --line-height-heading: 1.2;
+    --line-height-body: 1.5;
+    --letter-spacing-heading: 0.05em;
+    --letter-spacing-body: 0.02em;
 }
 
 /* Utility Classes for colors */
-
 .u-text-primary {
     color: var(--clr-primary);
+    /* Text color primary */
 }
 
 .u-text-secondary {
     color: var(--clr-secondary);
+    /* Text color secondary */
 }
 
 .u-bg-primary {
     background-color: var(--clr-primary-bg);
+    /* Background color primary */
 }
 
 .u-accent-color {
     color: var(--clr-accent);
+    /* Accent color */
 }
+
 .u-bg-accent-color {
     background-color: var(--clr-accent);
+    /* Background color accent */
 }
+
 .u-bg-accent-secondary-color {
     background-color: var(--clr-accent-secondary);
+    /* Background color accent secondary */
 }
 
 .u-bg-secondary {
     background-color: var(--clr-secondary-bg);
+    /* Background color secondary */
 }
+
 .u-bg-secondary-2 {
     background-color: var(--clr-secondary-bg-2);
+    /* Background color secondary 2 */
 }
 
 .u-text-white {
     color: var(--clr-white);
+    /* Text color white */
 }
 
 /* Utiliy classes for font */
 .u-heading {
     font-family: var(--font-heading);
-    
+    /* Heading font */
 }
 
 .u-body-text {
     font-family: var(--font-body);
+    /* Body font */
 }
 
 .u-heading-1 {
     font-size: var(--font-size-h1);
+    /* Heading 1 font size */
 }
+
 .u-heading-2 {
     font-size: var(--font-size-h2);
+    /* Heading 2 font size */
 }
 
 .u-heading-3 {
     font-size: var(--font-size-h3);
+    /* Heading 3 font size */
 }
 
-.u-body-text-size{
+.u-body-text-size {
     font-size: var(--font-size-body);
+    /* Body text font size */
 }
 
-.u-font-normal{
+.u-font-normal {
     font-weight: var(--font-weight-normal);
+    /* Font weight normal */
 }
+
 .u-font-medium {
     font-weight: var(--font-weight-medium);
+    /* Font weight medium */
 }
+
 .u-font-semi-bold {
     font-weight: var(--font-weight-semi-bold);
+    /* Font weight semi-bold */
 }
+
 .u-font-bold {
     font-weight: var(--font-weight-bold);
+    /* Font weight bold */
 }
+
 .u-heading-line-height {
     font-weight: var(--line-height-heading);
+    /* Heading line height */
 }
+
 .u-body-line-height {
     font-weight: var(--line-height-body);
+    /* Body line height */
 }
+
 .u-heading-spacing {
     font-weight: var(--letter-spacing-heading);
+    /* Heading letter spacing */
 }
+
 .u-body-spacing {
     font-weight: var(--letter-spacing-body);
+    /* Body letter spacing */
 }
 
-/*Border box fix*/
+/* Border box fix */
 * {
     box-sizing: border-box;
+    /* Box sizing border box */
 }
 
-/*Reset margins*/
+/* Reset margins */
 body,
 h1,
 h2,
@@ -136,23 +170,29 @@ p,
 figure,
 picture {
     margin: 0;
+    /* Resetting margins */
 }
 
-/*Remove padding from lists*/
+/* Remove padding from lists */
 ul,
 ol,
 li {
     padding: 0;
+    /* Resetting padding for lists */
 }
 
 /* General utility classes */
-
-.u-vertical-margin-20{
+.u-vertical-margin-20 {
     margin: 20px 0px;
+    /* Vertical margin 20 */
 }
-.u-margin-20{
-    margin:20px;
+
+.u-margin-20 {
+    margin: 20px;
+    /* Margin 20 */
 }
-.u-padding-25{
-    padding:25px;
+
+.u-padding-25 {
+    padding: 25px;
+    /* Padding 25 */
 }
