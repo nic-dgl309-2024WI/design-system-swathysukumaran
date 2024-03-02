@@ -53,6 +53,10 @@ body {
     background-color: var(--clr-primary-bg);
     /* Background color primary */
 }
+.u-bg-primary-as-text {
+    color: var(--clr-primary-bg);
+    /* Background color primary */
+}
 
 .u-accent-color {
     color: var(--clr-accent);
