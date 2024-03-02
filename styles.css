@@ -31,6 +31,8 @@
     --line-height-body: 1.5;
     --letter-spacing-heading: 0.05em;
     --letter-spacing-body: 0.02em;
+
+    
 }
 
 /*Set global line-height*/
@@ -423,6 +425,8 @@ li {
     vertical-align: top;
 }
 
+
+
 /*Container classes */
 .max-width-mobile {
     max-width: 480px;
@@ -432,6 +436,23 @@ li {
     width: 100%;
 }
 
+.position-fixed-top-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 /*Styling for desktop screen*/
 @media screen and (min-width: 1200px) {
+
+    /* Container classes */
+        /* Assign full width as total width - sidebar width */
+        .desktop-full-width {
+            width: calc(100% - 256px);
+        }
+    
+        /* Max width of desktop view
+         */
+        .max-width-desktop {
+            max-width: 1240px;
+        }
 }
