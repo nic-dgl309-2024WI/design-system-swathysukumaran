@@ -33,6 +33,11 @@
     --letter-spacing-body: 0.02em;
 }
 
+/*Set global line-height*/
+body {
+    line-height: 1.5rem;
+}
+
 /* Utility Classes for colors */
 .u-text-primary {
     color: var(--clr-primary);
