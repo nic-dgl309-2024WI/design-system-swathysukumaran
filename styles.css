@@ -423,3 +423,15 @@ li {
     vertical-align: top;
 }
 
+/*Container classes */
+.max-width-mobile {
+    max-width: 480px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/*Styling for desktop screen*/
+@media screen and (min-width: 1200px) {
+}
