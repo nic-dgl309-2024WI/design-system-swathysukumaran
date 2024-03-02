@@ -185,153 +185,241 @@ li {
 }
 
 /* Base Spacing Classes */
-.l-m-0{
-    margin:0;
+/* Margin 0 */
+.l-m-0 {
+    margin: 0;
 }
-.l-m-1{
-    margin:1rem;
+
+/* Margin 1rem */
+.l-m-1 {
+    margin: 1rem;
 }
+
+/* Margin 1.5rem */
 .l-m-1-5 {
     margin: 1.5rem;
 }
+
+/* Margin top 0 */
 .l-mt-0 {
     margin-top: 0;
 }
 
+/* Margin top 1rem */
 .l-mt-1 {
     margin-top: 1rem;
 }
 
+/* Margin top 2rem */
 .l-mt-2 {
     margin-top: 2rem;
 }
-
+/* Margin top 3rem */
 .l-mt-3 {
     margin-top: 3rem;
 }
 
+/* Margin top 1.5rem */
 .l-mt-1-5 {
     margin-top: 1.5rem;
 }
 
+/* Margin top 2.5rem */
 .l-mt-2-5 {
     margin-top: 2.5rem;
 }
 
+/* Margin top 3.5rem */
 .l-mt-3-5 {
     margin-top: 3.5rem;
 }
 
+/* Margin bottom 1rem */
 .l-mb-1 {
     margin-bottom: 1rem;
 }
 
+/* Margin bottom 1.25rem */
 .l-mb-1-25 {
     margin-bottom: 1.25rem;
 }
 
+/* Margin bottom 1.5rem */
 .l-mb-1-5 {
     margin-bottom: 1.5rem;
 }
 
+/* Margin bottom 2rem */
 .l-mb-2 {
     margin-bottom: 2rem;
 }
 
+/* Margin bottom 3.5rem */
 .l-mb-3-5 {
     margin-bottom: 3.5rem;
 }
+
+/* Margin left 1rem */
 .l-ml-1 {
     margin-left: 1rem;
 }
 
+/* Margin left 1.25rem */
 .l-ml-1-25 {
     margin-left: 1.25rem;
 }
 
+/* Margin left 1.5rem */
 .l-ml-1-5 {
     margin-left: 1.5rem;
 }
 
+/* Margin left 2rem */
 .l-ml-2 {
     margin-left: 2rem;
 }
 
+/* Margin left 3.5rem */
 .l-ml-3-5 {
     margin-left: 3.5rem;
 }
+
+/* Margin right 1rem */
 .l-mr-1 {
     margin-right: 1rem;
 }
 
+/* Margin right 1.25rem */
 .l-mr-1-25 {
     margin-right: 1.25rem;
 }
 
+/* Margin right 1.5rem */
 .l-mr-1-5 {
     margin-right: 1.5rem;
 }
 
+/* Margin right 2rem */
 .l-mr-2 {
     margin-right: 2rem;
 }
 
+/* Margin right 3.5rem */
 .l-mr-3-5 {
     margin-right: 3.5rem;
 }
-.l-mx-1{
+
+/* Margin horizontal 1rem */
+.l-mx-1 {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+/* Margin horizontal auto */
 .l-mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Padding left 1rem */
 .l-pl-1 {
     padding-left: 1rem;
 }
 
+/* Padding right 1rem */
 .l-pr-1 {
     padding-right: 1rem;
 }
 
+/* Padding right 1.5rem */
 .l-pr-1-5 {
     padding-right: 1.5rem;
 }
+
+/* Padding left 1.5rem */
 .l-pl-1-5 {
     padding-left: 1.5rem;
 }
+
+/* Padding horizontal 1rem */
 .l-px-1 {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
+/* Padding vertical 1rem */
 .l-py-1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-
-
+/* Padding top 1rem */
 .l-pt-1 {
     padding-top: 1rem;
 }
+
+/* Padding bottom 1rem */
 .l-pb-1 {
     padding-bottom: 1rem;
 }
+
+/* Padding top 1.5rem */
 .l-pt-1-5 {
     padding-top: 1.5rem;
 }
 
+/* Padding bottom 1.5rem */
 .l-pb-1-5 {
     padding-bottom: 1.5rem;
 }
-.l-p-1{
-    padding:1rem;
-}
-.l-p-1-5{
-    padding:1.5rem;
+
+/* Padding 1rem */
+.l-p-1 {
+    padding: 1rem;
 }
 
+/* Padding 1.5rem */
+.l-p-1-5 {
+    padding: 1.5rem;
+}
+/* Base Layout Classes */
+/* Display block */
+.l-block {
+    display: block;
+}
+
+/* Display flex */
+.l-flex {
+    display: flex;
+}
+
+/* Flex direction row */
+.l-direction-row {
+    flex-direction: row;
+}
+
+/* Flex direction column */
+.l-direction-column {
+    flex-direction: column;
+}
+
+/* Flex wrap */
+.l-wrap {
+    flex-wrap: wrap;
+}
+
+/* Full content width */
+.l-content-width {
+    width: 100%;
+}
+
+/* Justify flex end */
+.l-justify-flex-end {
+    justify-content: flex-end;
+}
+
+/* Vertical alignment top */
+.l-vtl-alignment-top {
+    vertical-align: top;
+}
 
