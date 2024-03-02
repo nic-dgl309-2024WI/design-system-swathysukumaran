@@ -109,102 +109,146 @@
     <main>
 
         <!-- Section for showing all color swatches -->
-       <section class="c-swatches"> 
+       <section class="c-swatches u-bg-secondary"> 
         <h2>Primary Colors</h2>
-        <div class="c-swatches__swatch-card">
+        
+            <!-- A card to show details of a single color -->
+            <!-- Code referred from https://codepen.io/yemon/pen/yLeGQwx -->
+            <div class="c-swatches__swatch-card">
+                <div class="c-swatches__color-container">
+                    
+                        <div class="c-swatches__inner-skew">
+                            <div class="c-swatches__swatch u-bg-text1">
 
-        </div>
+                            </div>
+                            
+                        </div>
+                   
+                </div>
+                <div class="c-swatches__text-container u-bg-primary">
+                    <h3>Primary Text Color</h3>
+                  
+                    <p>#2b2c34</p> 
+                    <p>Class :.u-text-primary , u-bg-text1</p>
+                    <div>
+                        <ul>
+                            <li>Headings</li>
+                            <li>Body Text</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Primary background swatch -->
+            <div class="c-swatches__swatch-card u-bg-secondary">
+                <div class="c-swatches__color-container">
+            
+                    <div class="c-swatches__inner-skew">
+                        <div class="c-swatches__swatch u-bg-primary">
+            
+                        </div>
+            
+                    </div>
+            
+                </div>
+                <div class="c-swatches__text-container u-bg-primary">
+                    <h3>Primary Background Color</h3>
+            
+                    <p>#fffffe</p>
+                    <p>Class :.u-bg-primary </p>
+                    <div>
+                        <ul>
+                            <li>Backgrounds</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+          
+        
        </section>
-        <!-- COLOR SWATCHES -->
+        <!-- Secondary colors -->
         <section>
-            <h2>Primary Colors</h2>
-            <!-- Swatch for primary text color -->
-            <div class="c-swatch u-text-primary">
-                <div>.u-text-primary</div>
-                <div>#2b2c34</div>
-                <div>
-                    <ul>
-                        <li>Headings</li>
-                        <li>Body Text</li>
-                    </ul>
-                </div>
-                <div class="c-swatch__colorBlock u-bg-text1" >
-                
-                </div>
-            </div>
+            <h2>Secondary Colors</h2>
+            <div class="c-swatches__swatch-card">
+                <div class="c-swatches__color-container">
             
-        
-            <!-- Swatch for primary background color -->
-            <div class="c-swatch u-bg-primary">
-                <div>.bg-primary</div>
-                <div>#fffffe</div>
-                <div>
-                    <ul>
-                        <li>Backgrounds</li>
-                    </ul>
-                </div>
-                <div class="c-swatch__colorBlock u-bg-primary" >
-                
-                </div>
-            </div>
-        
-            <!-- Swatch for secondary background color -->
-            <div class="c-swatch u-bg-secondary ">
-                <div>.bg-secondary</div>
-                <div>#d1d1e9</div>
-                <div>
-                    <ul>
-                        <li>Different Background for different sections.</li>
-                    </ul>
-                </div>
-                <div class="c-swatch__colorBlock u-bg-secondary" >
-                
-                </div>
-            </div>
+                    <div class="c-swatches__inner-skew">
+                        <div class="c-swatches__swatch u-bg-secondary ">
             
+                        </div>
+            
+                    </div>
+            
+                </div>
+                <div class="c-swatches__text-container u-bg-primary">
+                    <h3>Secondary Background Color</h3>
+            
+                    <p>#eaeaea</p>
+                    <p>Class :u-bg-secondary</p>
+                    <div>
+                        <ul>
+                            <li>Different Background for different sections.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
-        
+
+        <!-- Accent Color Swatches -->
         <section>
-            <h2>Accent Colors</h2>
-           
-            <!-- Swatch for accent color -->
-            <div class="c-swatch u-accent-color">
-                <div>.accent-color</div>
-                <div>.u-bg-accent-color</div>
-                <div>.u-accent-color</div>
-                <div>#6246ea</div>
-                <div>
+            <div class="c-swatches__swatch-card">
+                <div class="c-swatches__color-container">
+            
+                    <div class="c-swatches__inner-skew">
+                        <div class="c-swatches__swatch u-bg-accent-color">
+            
+                        </div>
+            
+                    </div>
+            
+                </div>
+                <div class="c-swatches__text-container">
+                    <h3>Accent color</h3>
+            
+                    <p>#6246ea</p>
+                    <p>Class :.u-accent-color , .u-bg-accent-color</p>
+
+                    <div>
                     <ul>
                         <li>For buttons, and active links</li>
                     </ul>
-                </div>
-                <div class="c-swatch__colorBlock u-bg-accent-color " >
-                
+                    </div>
                 </div>
             </div>
-        
-            <!-- Swatch for secondary accent color -->
-            <div class="c-swatch u-accent-secondary-color">
-                
-                <div>.u-bg-accent-secondary-color</div>
-                <div>.u-accent-secondary</div>
-                <div>#DB0000</div>
-                <div>
-                    <ul>
-                        <li>Highlighted texts</li>
-                        <li>Decorative elements</li>
-                    </ul>
-                </div>
-                <div class="c-swatch__colorBlock u-bg-accent-secondary-color" >
 
+            <div class="c-swatches__swatch-card">
+                <div class="c-swatches__color-container">
+            
+                    <div class="c-swatches__inner-skew">
+                        <div class="c-swatches__swatch u-bg-accent-secondary-color">
+            
+                        </div>
+            
+                    </div>
+            
+                </div>
+                <div class="c-swatches__text-container">
+                    <h3>Secondary Accent color</h3>
+            
+                    <p>#DB0000</p>
+                    <p>Class :.u-accent-secondary, u-bg-accent-secondary-color </p>
+            
+                    <div>
+                        <ul>
+                            <li>Highlighted texts</li>
+                            <li>Decorative elements</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        
-            
-        
-           
-            
         </section>
+       
 
         <!-- COLOR CONTRAST CHECK -->
         <section>
