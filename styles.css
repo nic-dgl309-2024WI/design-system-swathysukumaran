@@ -169,6 +169,10 @@ body {
 .u-border-collapse{
     border-collapse: collapse;
 }
+/* Align text to left */
+.u-align-left{
+    text-align: left;
+}
 /* Border box fix */
 * {
     box-sizing: border-box;

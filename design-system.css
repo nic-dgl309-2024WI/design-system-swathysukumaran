@@ -161,9 +161,16 @@ a:hover {
     color: #04bcff;
     font-size: 18px;
 }
+/* Align table text to center */
 .c-contrast-table{
     text-align: center;
 }
+
+/* Hide list styling */
+.c-swatches__uses-list{
+    list-style-type: none;
+}
+ 
 /* Styles for desktop view */
 @media screen and (min-width: 769px) {
     .c-top-navbar__logo-container {
