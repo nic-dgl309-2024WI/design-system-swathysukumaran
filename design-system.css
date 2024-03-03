@@ -47,10 +47,7 @@ a:hover {
 }
 
 /* Position top nav */
-.l-flex {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .c-top-navbar__hamburger-menu {
     display: block;
@@ -276,5 +273,11 @@ input[type="radio"] {
     /* Reduce width of utility section */
     .c-utility-list{
         width: 25%;
+    }
+    /* about me page */
+    .c-main-section__skills{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
     }
 }
