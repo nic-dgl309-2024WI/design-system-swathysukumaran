@@ -161,6 +161,9 @@ a:hover {
     color: #04bcff;
     font-size: 18px;
 }
+.c-contrast-table{
+    text-align: center;
+}
 /* Styles for desktop view */
 @media screen and (min-width: 769px) {
     .c-top-navbar__logo-container {

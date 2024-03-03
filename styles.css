@@ -161,6 +161,14 @@ body {
 .is-not-visible{
     display: none;
 }
+/* Apply border */
+.u-border-1{
+    border: 1px solid black;
+}
+/* Collapse border */
+.u-border-collapse{
+    border-collapse: collapse;
+}
 /* Border box fix */
 * {
     box-sizing: border-box;
