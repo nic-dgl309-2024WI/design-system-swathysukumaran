@@ -6,7 +6,7 @@ body {
 /* Top Nav */
 .c-top-navbar {
     overflow: hidden;
-    position: relative;
+    
     padding: 14px 16px;
     /* Padding for top navbar */
 }
@@ -94,7 +94,16 @@ a:hover {
     border-radius: 50px;
     border: 1px solid black;
 }
+.l-position-fixed-top-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 
+.u-overflow-scroll {
+    overflow: scroll;
+}
 
 /* COLORS PAGE */
 
