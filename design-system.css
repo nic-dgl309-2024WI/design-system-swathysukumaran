@@ -65,6 +65,10 @@ a:hover {
 .c-sidebar {
     width: 200px;
     display: none;
+    position: fixed;
+        top: 150px;
+        left: 0;
+        z-index: 1;
     /* Hide sidebar by default */
 }
 
@@ -103,6 +107,12 @@ a:hover {
     top: 0;
     left: 0;
     z-index: 1;
+}
+.l-position-fixed-top200-left{
+    position: fixed;
+        top: 150px;
+        left: 0;
+        z-index: 1;
 }
 
 .u-overflow-scroll {
@@ -219,6 +229,10 @@ input[type="radio"] {
 
     .c-sidebar {
         display: flex;
+        position: fixed;
+            top: 95px;
+            left: 0;
+            z-index: 1;
     }
 
     .c-top-navbar__hamburger-menu {
