@@ -79,6 +79,10 @@ a:hover {
     padding-top: 10px;
     /* Padding for sidebar heading */
 }
+/* Main section */
+.c-main-section{
+    margin-top: 100px;
+}
 
 /* Swatches in colors.html */
 .c-swatch {

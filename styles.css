@@ -420,6 +420,9 @@ li {
     justify-content: flex-end;
 }
 
+.l-justify-center {
+    justify-content: center;
+}
 /* Vertical alignment top */
 .l-vtl-alignment-top {
     vertical-align: top;
