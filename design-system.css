@@ -194,4 +194,20 @@ a:hover {
         display: none;
         /* Hide the hamburger icon on larger screens */
     }
+    /* main section */
+        .c-main-section{
+             margin-left: 220px; /* Adjust based on sidebar width */
+            width: calc(100% - 220px); /* Adjust based on sidebar width */
+
+        }
+
+    /* Add margin to swatch cards */
+    .c-swatches__swatch-card{
+        margin:1.25rem;
+    }
+
+    /* Add margin to table */
+    .c-contrast-table{
+        margin:1.25rem;
+    }
 }
