@@ -217,6 +217,12 @@ input[type="radio"] {
         max-height: 200px;
     }
 }
+
+/* Spacing page */
+.c-spacing-container{
+    border:2px solid var(--clr-accent-secondary);
+}
+
  
 /* Styles for desktop view */
 @media screen and (min-width: 769px) {
