@@ -177,13 +177,10 @@ a:hover {
 
 
 /* Code for Accordion from https: //codepen.io/amit_sheen/pen/OJpExOB */
-.accordion {
-    max-width: 420px;
-    text-align: left;
-}
+
 
 article {
-    border: 1px solid #fff;
+    border: 1px solid #a3a3a3;
     padding: 1em;
     margin: 1em auto;
 }
@@ -243,5 +240,11 @@ input[type="radio"] {
     /* Add margin to table */
     .c-contrast-table{
         margin:1.25rem;
+    }
+
+    /* Typography page */
+    /* Reduce width of utility section */
+    .c-utility-list{
+        width: 20%;
     }
 }
