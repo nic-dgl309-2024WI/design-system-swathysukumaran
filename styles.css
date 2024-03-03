@@ -212,7 +212,9 @@ li {
 .l-m-0 {
     margin: 0;
 }
-
+.l-m-auto{
+    margin:auto;
+}
 /* Margin 1rem */
 .l-m-1 {
     margin: 1rem;
@@ -480,7 +482,7 @@ li {
 
 
 /*Container classes */
-.max-width-mobile {
+.max-width {
     max-width: 480px;
 }
 
@@ -500,7 +502,7 @@ li {
     
         /* Max width of desktop view
          */
-        .max-width-desktop {
+        .max-width {
             max-width: 1240px;
         }
 }

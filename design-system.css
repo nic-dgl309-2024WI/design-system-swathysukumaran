@@ -253,8 +253,8 @@ input[type="radio"] {
     }
     /* main section */
         .c-main-section{
-             margin-left: 220px; /* Adjust based on sidebar width */
-            width: calc(100% - 220px); /* Adjust based on sidebar width */
+             margin-left: 200px; /* Adjust based on sidebar width */
+            width: calc(100% - 200px); /* Adjust based on sidebar width */
 
         }
 
