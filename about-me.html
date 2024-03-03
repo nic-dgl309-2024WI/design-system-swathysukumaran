@@ -4,39 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="design-system.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-      <!-- add your name -->
-    <h1>Hi! My name is Swathy Sukumaran Vadakkath.</h1>
-    <h2>I am a web developer.</h2>
-    <!-- add your portrait photo -->
-    <img
-      src="images/Portfolio_image.png"
-      alt="Portrait of lorem ipsum"
-      style="width: 500px; height: 500px"
-    />
-    <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
-    <p>
-      I am an aspiring full-stack web developer from India, with a Masters in Computer Science and Engineering.  Due to my passion for Web development, I am currently pursuing a Post Graduate Diploma in Digital Design + Development to fulfill my journey. 
-    </p>
-    <!-- add a list of your favourite web development tools. -->
-    <p>My favourite tools are</p>
-    <ul>
-      <li>Mongo DB</li>
-      <li>React</li>
-      <li>React-native</li>
-      <li>Angular</li>
-      <li>Node</li>
-      <li>Express js</li>
-    </ul>
-    <!-- add a list of your strongest web development skills. -->
-    <p>My skills include</p>
-    <ul>
-      <li>Angular</li>
-      <li>React</li>
-      <li>React native</li>
-      <li>Express js</li>
-    </ul>
+    <header class="c-top-navbar full-width u-bg-secondary l-position-fixed-top-left">
+      <!-- Logo -->
+      <div class="c-top-navbar__logo-container">
+        <div class="c-top-navbar__logo">
+          <a href="index.html" class="c-top-navbar__logo text-primary  u-heading u-heading-3">
+            Design System
+          </a>
+        </div>
+        <!-- Hamburger button for mobile navbar -->
+        <div class="c-top-navbar__hamburger-menu text-primary " onclick="toggleMobileMenu()">
+          <i id="toggle-icon" class="fa fa-bars"></i>
+        </div>
+        <!-- Top navbar -->
+        <nav class="c-top-navbar__nav" id="nav-menu">
+          <ul class="c-top-navbar__list">
+            <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
+                class="u-no-style-link u-text-primary u-body-text active">About Me</a></li>
+            <li class="u-li-padding c-top-navbar__item "><a href="#"
+                class="u-no-style-link u-text-primary u-body-text ">Demo Site</a></li>
+          </ul>
+        </nav>
+      </div>
+    
+    </header>
+    
+    
+    <main class="c-main-section l-m-1-5">
+        <!-- add your name -->
+        <h1>Hi! My name is Swathy Sukumaran Vadakkath.</h1>
+        <h2>I am a web developer.</h2>
+        <!-- add your portrait photo -->
+        <img src="images/Portfolio_image.png" alt="Portrait of lorem ipsum" style="width: 500px; height: 500px" />
+        <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
+        <p>
+          I am an aspiring full-stack web developer from India, with a Masters in Computer Science and Engineering. Due to my
+          passion for Web development, I am currently pursuing a Post Graduate Diploma in Digital Design + Development to
+          fulfill my journey.
+        </p>
+        <!-- add a list of your favourite web development tools. -->
+        <p>My favourite tools are</p>
+        <ul>
+          <li>Mongo DB</li>
+          <li>React</li>
+          <li>React-native</li>
+          <li>Angular</li>
+          <li>Node</li>
+          <li>Express js</li>
+        </ul>
+        <!-- add a list of your strongest web development skills. -->
+        <p>My skills include</p>
+        <ul>
+          <li>Angular</li>
+          <li>React</li>
+          <li>React native</li>
+          <li>Express js</li>
+        </ul>
+    </main>
+    <script src="design-system.js"></script>
   </body>
 </html>
