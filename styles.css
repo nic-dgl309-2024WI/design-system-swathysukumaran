@@ -22,13 +22,14 @@
     --font-size-h1: 2.5rem;
     --font-size-h2: 2rem;
     --font-size-h3: 1.5rem;
+    --font-size-h4: 1.25rem;
     --font-size-body: 1.2rem;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
     --font-weight-bold: 700;
-    --line-height-heading: 1.2;
-    --line-height-body: 1.5;
+    --line-height-heading: 2rem;
+    --line-height-body: 1.5rem;
     --letter-spacing-heading: 0.05em;
     --letter-spacing-body: 0.02em;
 
@@ -111,6 +112,10 @@ body {
     font-size: var(--font-size-h3);
     /* Heading 3 font size */
 }
+.u-heading-4 {
+    font-size: var(--font-size-h4);
+    /* Heading 3 font size */
+}
 
 .u-body-text-size {
     font-size: var(--font-size-body);
@@ -138,12 +143,12 @@ body {
 }
 
 .u-heading-line-height {
-    font-weight: var(--line-height-heading);
+    line-height: var(--line-height-heading);
     /* Heading line height */
 }
 
 .u-body-line-height {
-    font-weight: var(--line-height-body);
+    line-height: var(--line-height-body);
     /* Body line height */
 }
 

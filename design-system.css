@@ -170,6 +170,40 @@ a:hover {
 .c-swatches__uses-list{
     list-style-type: none;
 }
+/* Section to display font faces */
+.c-typeface{
+    border: 1px solid lightgray;
+}
+
+
+/* Code for Accordion from https: //codepen.io/amit_sheen/pen/OJpExOB */
+.accordion {
+    max-width: 420px;
+    text-align: left;
+}
+
+article {
+    border: 1px solid #fff;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+input[type="radio"] {
+    appearance: none;
+    position: fixed;
+    top: -100vh;
+    left: -100vh;
+
+    &~div {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    &:checked~div {
+        max-height: 200px;
+    }
+}
  
 /* Styles for desktop view */
 @media screen and (min-width: 769px) {
