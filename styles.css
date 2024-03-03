@@ -217,6 +217,10 @@ li {
 .l-m-1 {
     margin: 1rem;
 }
+/* Margin 2rem */
+.l-m-2 {
+    margin: 2rem;
+}
 
 /* Margin 1.5rem */
 .l-m-1-5 {
@@ -347,10 +351,15 @@ li {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
-/* Margin vertical 1.5rem */
+/* Margin vertical 2rem */
 .l-my-2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+/* Margin vertical 3rem */
+.l-my-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 /* Margin horizontal auto */
 .l-mx-auto {
@@ -418,6 +427,10 @@ li {
 /* Padding 1.5rem */
 .l-p-1-5 {
     padding: 1.5rem;
+}
+/* Padding 2rem */
+.l-p-2 {
+    padding: 2rem;
 }
 /* Base Layout Classes */
 /* Display block */
