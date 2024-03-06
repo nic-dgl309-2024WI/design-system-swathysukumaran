@@ -15,41 +15,42 @@
 
 <body class="bg-primary"> <!-- Body of the HTML document with a class for background color -->
 
-    <!-- Header section -->
-    <header class="c-top-navbar u-bg-secondary">
+    <!-- Header section with nav -->
+    <header class="c-top-navbar full-width u-bg-secondary l-position-fixed-top-left">
         <div class="c-top-navbar__logo-container">
+            <!-- Logo -->
             <div class="c-top-navbar__logo">
                 <a href="index.html" class="c-top-navbar__logo text-primary  u-heading u-heading-3">
-                    Design System <!-- Logo and link to home page -->
+                    Design System
                 </a>
             </div>
             <!-- Hamburger button for mobile navbar -->
             <div class="c-top-navbar__hamburger-menu text-primary " onclick="toggleMobileMenu()">
-                <i id="toggle-icon" class="fa fa-bars"></i> <!-- Icon for the hamburger menu -->
+                <i id="toggle-icon" class="fa fa-bars"></i>
             </div>
-            <!-- Navigation menu -->
             <nav class="c-top-navbar__nav" id="nav-menu">
                 <ul class="c-top-navbar__list">
                     <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
-                            class="u-no-style-link u-text-primary u-body-text">About Me</a></li> <!-- About Me link -->
+                            class="u-no-style-link u-text-primary u-body-text">About Me</a></li>
                     <li class="u-li-padding c-top-navbar__item "><a href="#"
                             class="u-no-style-link u-text-primary u-body-text ">Demo Site</a></li>
-                    <!-- Demo Site link with active class indicating current page -->
                 </ul>
             </nav>
         </div>
+    
     </header>
-
+    
     <!-- Sidebar -->
     <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
-      <aside class="c-sidebar u-bg-secondary" id="sidebar">
+    <aside class="c-sidebar  u-bg-secondary" id="sidebar">
         <!-- Navigation links -->
         <nav class="c-sidebar__nav ">
-            <!-- Navlinks for Brand -->
+            <!-- Navlinks for brand item -->
             <section class="c-sidebar__section">
                 <h3 class="c-sidebar__heading u-heading u-heading-3">Your Brand</h3>
                 <ul class="c-sidebar__list " id="side-menu">
-                    <li class="u-li-padding"><a href="colours.html" class="u-no-style-link u-text-primary u-body-text ">01
+                    <li class="u-li-padding"><a href="colours.html"
+                            class="u-no-style-link u-text-primary u-body-text ">01
                             Colors</a></li>
                     <li class="u-li-padding"><a href="typography.html" class="u-no-style-link u-text-primary u-body-text">02
                             Typography</a></li>
@@ -61,9 +62,10 @@
             <section class="c-sidebar__section">
                 <h3 class="c-sidebar__heading u-heading u-heading-3">Utilities</h3>
                 <ul class="c-sidebar__list">
-                    <li class="u-li-padding"><a href="spacing.html" class="u-no-style-link u-text-primary u-body-text">04 Spacing</a>
+                    <li class="u-li-padding"><a href="spacing.html" class="u-no-style-link u-text-primary u-body-text">04
+                            Spacing</a>
                     </li>
-                    <li class="u-li-padding"><a href="containers.html" class="u-no-style-link u-text-primary u-body-text">05
+                    <li class="u-li-padding"><a href="containers.html" class="u-no-style-link u-text-primary u-body-text active">05
                             Containers</a></li>
                 </ul>
             </section>
@@ -95,7 +97,7 @@
                 </ul>
             </section>
     
-            <!-- Sidebar section for components -->
+            <!-- Navlinks for components -->
             <section class="c-sidebar__section">
                 <h3 class="c-sidebar__heading u-heading u-heading-3">Components</h3>
                 <ul class="c-sidebar__list">
@@ -111,6 +113,72 @@
             </section>
         </nav>
     </aside>
+    <main class="c-main-section l-m-1-5">
+        <div class="l-m-auto max-width">
+            <h1 class="u-heading u-heading-1 l-my-3">Containers</h1>
+
+            <section class="l-mb-3">
+                <h2>Flexible Layout Classes</h2>
+                <table class="c-contrast-table u-border-collapse">
+                <tr>
+                    <th class="u-border-1 l-py-1">Class name</th>
+                    <th class="u-border-1 l-py-1">Css Property</th>
+                    <th class="u-border-1 l-py-1">Value</th>
+                
+                </tr>
+                <tr >
+                    <td class="u-border-1 ">l-flex</td>
+                    <td class="u-border-1 l-py-1">display</td>
+                    <td class="u-border-1 l-py-1">flex</td>
+                
+                </tr>
+                <tr >
+                    <td class="u-border-1 l-py-1">l-direction-row</td>
+                    <td class="u-border-1 l-py-1">flex-direction</td>
+                    <td class="u-border-1 l-py-1">row</td>
+                </tr>
+                <tr>
+                    <td class="u-border-1 l-py-1">l-direction-column</td>
+                    <td class="u-border-1 l-py-1">flex-direction</td>
+                    <td class="u-border-1 l-py-1">column</td>
+                </tr>
+               
+                
+                </table>
+
+            </section>
+            <section>
+                <h2>Container Classes</h2>
+                <table class="c-contrast-table u-border-collapse">
+                <tr>
+                    <th class="u-border-1 l-py-1">Class name</th>
+                    <th class="u-border-1 l-py-1">Css Property</th>
+                    <th class="u-border-1 l-py-1">Value</th>
+            
+                </tr>
+                <tr>
+                    <td class="u-border-1 ">max-width</td>
+                    <td class="u-border-1 l-py-1">max-width</td>
+                    <td class="u-border-1 l-py-1">480px (Mobile) , 1240px (Desktop)</td>
+            
+                </tr>
+                <tr>
+                    <td class="u-border-1 l-py-1">full-width</td>
+                    <td class="u-border-1 l-py-1">width</td>
+                    <td class="u-border-1 l-py-1">100%</td>
+                </tr>
+                <tr>
+                    <td class="u-border-1 l-py-1">desktop-full-width</td>
+                    <td class="u-border-1 l-py-1">width</td>
+                    <td class="u-border-1 l-py-1">calc(100% - 256px)</td>
+                </tr>
+            
+            
+                </table>
+            
+            </section>
+        </div>
+    </main>
 
     <script src="design-system.js"></script> <!-- JavaScript file for functionality -->
 </body>
