@@ -185,7 +185,8 @@ a:hover {
 }
 /* Section to display font faces */
 .c-typeface{
-    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -193,9 +194,11 @@ a:hover {
 
 
 article {
-    border: 1px solid #a3a3a3;
+    
     padding: 1em;
     margin: 1em auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 }
 
 input[type="radio"] {
