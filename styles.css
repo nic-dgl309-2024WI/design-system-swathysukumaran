@@ -380,6 +380,9 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+.l-p-half{
+    padding: 0.5rem;
+}
 /* Padding 1rem */
 .l-p-1 {
     padding: 1rem;
