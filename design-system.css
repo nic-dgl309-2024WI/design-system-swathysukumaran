@@ -278,9 +278,12 @@ input[type="radio"] {
         width: 25%;
     }
     /* about me page */
+    .c-desktop-about-me-wrapper{
+        width:460px;
+    }
     .c-main-section__skills{
         display: flex;
-        justify-content: space-between;
-        width: 50%;
+        justify-content: space-around;
+        
     }
 }
