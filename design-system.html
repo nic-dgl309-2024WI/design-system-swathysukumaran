@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!-- Declaration of the HTML5 document type -->
+<html lang="en"> <!-- Start of the HTML document with the language set to English -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding declaration -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Viewport settings for responsive design -->
+    <title>Document</title> <!-- Title of the HTML document -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet for general styles -->
+    <link rel="stylesheet" href="design-system.css">
+    <!-- Link to external stylesheet for design system specific styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link to Font Awesome stylesheet -->
+</head>
+
+<body class="bg-primary"> <!-- Body of the HTML document with a class for background color -->
+
+    <!-- Header section -->
+    <header class="c-top-navbar u-bg-secondary">
+        <div class="c-top-navbar__logo-container">
+            <div class="c-top-navbar__logo">
+                <a href="index.html" class="c-top-navbar__logo u-text-primary  u-heading u-heading-3">
+                    Design System <!-- Logo and link to home page -->
+                </a>
+            </div>
+            <!-- Hamburger button for mobile navbar -->
+            <div class="c-top-navbar__hamburger-menu u-text-primary " onclick="toggleMobileMenu()">
+                <i id="toggle-icon" class="fa fa-bars"></i> <!-- Icon for the hamburger menu -->
+            </div>
+            <!-- Navigation menu -->
+            <nav class="c-top-navbar__nav" id="nav-menu">
+                <ul class="c-top-navbar__list">
+                    <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
+                            class="u-no-style-link u-text-primary u-body-text">About Me</a></li> <!-- About Me link -->
+                    <li class="u-li-padding c-top-navbar__item "><a href="#"
+                            class="u-no-style-link u-text-primary u-body-text ">Demo Site</a></li>
+                    <!-- Demo Site link with active class indicating current page -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
+      <aside class="c-sidebar u-bg-secondary l-pl-1 " id="sidebar">
+        <!-- Navigation links -->
+        <nav class="c-sidebar__nav ">
+            <!-- Navlinks for Brand -->
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading u-heading u-heading-3">Your Brand</h3>
+                <ul class="c-sidebar__list " id="side-menu">
+                    <li class="u-li-padding"><a href="colours.html" class="u-no-style-link u-text-primary u-body-text ">01
+                            Colors</a></li>
+                    <li class="u-li-padding"><a href="typography.html" class="u-no-style-link u-text-primary u-body-text">02
+                            Typography</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">03 Logo</a></li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for utilities -->
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading u-heading u-heading-3">Utilities</h3>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="spacing.html" class="u-no-style-link u-text-primary u-body-text">04 Spacing</a>
+                    </li>
+                    <li class="u-li-padding"><a href="containers.html" class="u-no-style-link u-text-primary u-body-text">05
+                            Containers</a></li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for navigation -->
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading u-heading u-heading-3">Navigation</h3>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">09 Navbars</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">10
+                            Breadcrumbs</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">11
+                            Pagination</a></li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for blocks -->
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading u-heading u-heading-3">Blocks</h3>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">12 Hero</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">13 Carousel</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">14 Slats</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">15 Footer</a>
+                    </li>
+                </ul>
+            </section>
+    
+            <!-- Sidebar section for components -->
+            <section class="c-sidebar__section">
+                <h3 class="c-sidebar__heading u-heading u-heading-3">Components</h3>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">16 Cards</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">17 Forms</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">18 Accordion</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">19 Lists</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </aside>
+
+    <script src="design-system.js"></script> <!-- JavaScript file for functionality -->
+</body>
+
+</html>
