@@ -508,6 +508,60 @@ li {
     width: 100%;
 }
 
+/* ########################## 
+OUTBACK NURSERY HOME PAGE
+############################*/
+
+.hero {
+    background-color: #f8f9fa;
+    /* Set background color */
+    padding: 50px 0;
+    /* Add padding */
+}
+
+.container {
+    max-width: 1200px;
+    /* Set max width */
+    margin: 0 auto;
+    /* Center the content */
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center vertically */
+    justify-content: space-between;
+    /* Space between elements */
+}
+
+.hero-content {
+    flex: 1;
+    /* Take up remaining space */
+    padding: 0 20px;
+    /* Add padding */
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    /* Set font size */
+    margin-bottom: 20px;
+    /* Add margin */
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    /* Set font size */
+}
+
+.hero-image {
+    flex: 1;
+    /* Take up remaining space */
+}
+
+.hero-image img {
+    max-width: 100%;
+    /* Ensure image stays within container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
 
 /*Styling for desktop screen*/
 @media screen and (min-width: 1200px) {
