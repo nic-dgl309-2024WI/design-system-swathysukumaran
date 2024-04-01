@@ -636,6 +636,33 @@ a:hover {
     max-width: 100%;
     border-radius: 0px 10px 0px 10px;
 }
+.accordion {
+  
+    /* Adjust width as needed */
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.accordion-header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+/* Show content on hover */
+.accordion-item:hover .accordion-content {
+    display: block;
+}
 
 /*Styling for desktop screen*/
 @media screen and (min-width: 1200px) {
