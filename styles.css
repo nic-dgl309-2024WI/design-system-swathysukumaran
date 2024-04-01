@@ -563,6 +563,8 @@ a:hover {
     border-radius: 0px 10px 0px 10px;
 }
 
+
+
 /* Position top nav */
 
 
@@ -619,6 +621,20 @@ a:hover {
     /* Ensure image stays within container */
     height: auto;
     /* Maintain aspect ratio */
+}
+
+.card{
+    border-radius: 0px 10px 0px 10px;
+    z-index: 99;
+}
+
+.card-img-top{
+    border-radius: 0px 10px 0px 0px;
+    height: 200px;
+}
+.card-img{
+    max-width: 100%;
+    border-radius: 0px 10px 0px 10px;
 }
 
 /*Styling for desktop screen*/
