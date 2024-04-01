@@ -182,6 +182,10 @@ body {
 .u-align-left{
     text-align: left;
 }
+/* Align text to center */
+.u-align-left {
+    text-align: center;
+}
 /* Border box fix */
 * {
     box-sizing: border-box;
@@ -553,6 +557,11 @@ a:hover {
     color: var(--clr-accent);
     /* Styling for active or hovered links */
 }
+.bbutton{
+    background-color: var(--clr-accent);
+    border:none;
+    border-radius: 0px 10px 0px 10px;
+}
 
 /* Position top nav */
 
@@ -566,12 +575,7 @@ a:hover {
     /* Padding for hamburger menu */
 }
 
-.hero {
-    background-color: #f8f9fa;
-    /* Set background color */
-    padding: 50px 0;
-    /* Add padding */
-}
+ 
 
 .container {
     max-width: 1200px;
