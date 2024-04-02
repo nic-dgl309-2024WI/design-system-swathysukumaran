@@ -549,7 +549,7 @@ OUTBACK NURSERY HOME PAGE
 
 .u-no-style-link {
     text-decoration: none;
-    font-size: 17px;
+    
     /* Font size for links with no style */
 }
 .logo-img{
@@ -686,7 +686,7 @@ a:hover {
 
 /* Form group */
 .form-group {
-    margin-bottom: 20px;
+   
     padding:15px;
 }
 .resources-card{
