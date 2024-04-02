@@ -920,7 +920,9 @@ ul {
     color: #24262b;
     background-color: #ffffff;
 }
-
+.coming-soon-container{
+height:50vh;
+}
 /*Styling for desktop screen*/
 @media screen and (min-width: 1200px) {
 
@@ -996,7 +998,7 @@ ul {
             flex-direction: row;
         }
         .slide-img{
-            width:50%
+            width:75%
         }
         .contact-form{
             width:60%;
