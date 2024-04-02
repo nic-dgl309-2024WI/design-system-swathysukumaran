@@ -687,6 +687,7 @@ a:hover {
 /* Form group */
 .form-group {
     margin-bottom: 20px;
+    padding:15px;
 }
 .resources-card{
     width:100%;
