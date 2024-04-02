@@ -7,7 +7,7 @@
     /* Primary Colors */
     --clr-primary: #2b2c34;
     --clr-primary-bg: #fffffe;
-
+    
     /* Accent Colors */
     --clr-accent: #6246ea;
     --clr-accent-secondary: #DB0000;
@@ -913,11 +913,14 @@ ul {
 }
 
 .footer-col .social-links a:hover {
-    color: #24262b;
+   
     background-color: #ffffff;
 }
 .coming-soon-container{
 height:50vh;
+}
+.social{
+    font-size: 25px;
 }
 /*Styling for desktop screen*/
 @media screen and (min-width: 1200px) {
@@ -981,11 +984,11 @@ height:50vh;
         }
         .gift-certificate-img{
             display: block;
-            width:45%;
+            width:50%;
         }
         .gift-certificate-image-file{
             width: 100%;
-            height: 450px;
+            height: 500px;
         }
         .modern-form{
             width: 45%;
