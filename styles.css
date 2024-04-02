@@ -489,6 +489,10 @@ li {
     width: 100%;
 }
 
+.l-align-center{
+    align-items: center;
+}
+
 /* Justify flex end */
 .l-justify-flex-end {
     justify-content: flex-end;
@@ -682,7 +686,9 @@ a:hover {
 .form-group {
     margin-bottom: 20px;
 }
-
+.resources-card{
+    width:30%;
+}
 /* Label styles */
 label {
     display: block;
@@ -748,6 +754,7 @@ button:hover {
 }
 .slide-img{
     max-width: 100%;
+    max-height:200px;
 }
 /* Slideshow container */
 .slideshow-container {
@@ -908,5 +915,8 @@ button:hover {
         }
         .slide-img{
             width:50%
+        }
+        .contact-form{
+            width:60%;
         }
 }
