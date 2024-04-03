@@ -739,10 +739,10 @@ button {
             flex-direction: column;
             justify-content: center;
 }
-.c-slideshow-container__mySlides {
-    display: none
-}
 
+.c-slideshow-container__mySlides{
+display: none;
+}
 .c-slideshow-container__slide{
     flex-direction: column;
 }
@@ -826,7 +826,7 @@ button {
     animation-duration: 1.5s;
 }
 
-@keyframes fade {
+@keyframes c-fade {
     from {
         opacity: .4
     }
