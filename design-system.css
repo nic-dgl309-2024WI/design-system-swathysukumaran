@@ -123,7 +123,9 @@ body {
 .c-contrast-table{
     text-align: center;
 }
-
+.c-contrast-table__title-row{
+    border-bottom: 1px black solid;
+}
 /* Hide list styling */
 .c-swatches__uses-list{
     list-style-type: none;
