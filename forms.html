@@ -98,9 +98,9 @@
             <section class="c-sidebar__section">
                 <h4 class="c-sidebar__heading u-heading u-heading-4">Components</h4>
                 <ul class="c-sidebar__list">
-                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text active">10 Cards</a>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text ">10 Cards</a>
                     </li>
-                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">11 Forms</a>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text active">11 Forms</a>
                     </li>
                     <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">12 Accordion</a>
                     </li>
@@ -111,25 +111,57 @@
         </nav>
     </aside>
     <main class="c-main-section  l-p-2">
-        <h1 class="u-heading u-heading-1 u-heading-line-height u-heading-spacing l-my-2">
-            Cards
+        <h1 class="u-heading u-heading-1 u-heading-line-height u-heading-spacing  l-mb-2">
+            Forms
         </h1>
-        <p class="u-body">Card typically contains a piece of information, such as a product, article, or image. Cards are often used to display
-        content in a visually appealing and easily scannable format. They can be arranged in rows or columns, allowing users to
-        quickly browse through different pieces of content.
+        <p class="u-body">The forms section on a website is where users can input and submit information. It typically includes fields for users
+        to enter data, such as their name, email address, and message. Forms can be used for various purposes, such as contact
+        forms, sign-up forms, or feedback forms. They provide a structured way for users to interact with the website and submit
+        information to the site owner or administrator.
         </p>
         
-            <div class="c-card u-bg-secondary l-my-1-5" style="width: max-content;">
-                <img src="images/pine.jpg" class="c-card__img-top" alt="pine tree image">
-                <h4 class="u-heading u-heading-4 u-heading-line-height u-heading-spacing l-p-half">Conifers</h4>
-            </div>
+            <form method="post" action="coming-soon.html" class="c-gift-form">
+                <div class="c-gift-form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="c-gift-form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="c-gift-form-group">
+                    <label for="amount">Gift Amount</label>
+                    <input type="text" id="amount" name="amount" placeholder="Enter your gift amount" required>
+                </div>
+                <div class="c-gift-form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="u-bg-accent-color u-bg-primary-as-text l-ml-1">Submit</button>
+            </form>
         <h4 class="u-heading u-heading-4">Code</h4>
         <div class="c-code-block u-bg-secondary u-rounded-four">
         <pre><code>
-    &lt;div class="c-card u-bg-secondary l-my-1-5"&gt;
-    &lt;img src="images/pine.jpg" class="c-card__img-top" alt="pine tree image"&gt;
-    &lt;h4 class="u-heading u-heading-4 u-heading-line-height u-heading-spacing l-p-half"&gt;Conifers&lt;/h4&gt;
-    &lt;/div&gt;
+            &lt;form method="post" action="coming-soon.html" class="c-gift-form"&gt;
+            &lt;div class="c-gift-form-group"&gt;
+            &lt;label for="name"&gt;Name&lt;/label&gt;
+            &lt;input type="text" id="name" name="name" placeholder="Enter your name" required&gt;
+            &lt;/div&gt;
+            &lt;div class="c-gift-form-group"&gt;
+            &lt;label for="email"&gt;Email address&lt;/label&gt;
+            &lt;input type="email" id="email" name="email" placeholder="Enter your email" required&gt;
+            &lt;/div&gt;
+            &lt;div class="c-gift-form-group"&gt;
+            &lt;label for="amount"&gt;Gift Amount&lt;/label&gt;
+            &lt;input type="text" id="amount" name="amount" placeholder="Enter your gift amount" required&gt;
+            &lt;/div&gt;
+            &lt;div class="c-gift-form-group"&gt;
+            &lt;label for="message"&gt;Message&lt;/label&gt;
+            &lt;textarea id="message" name="message" placeholder="Enter your message" rows="5" required&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;button type="submit" class="u-bg-accent-color u-bg-primary-as-text l-ml-1"&gt;Submit&lt;/button&gt;
+            &lt;/form&gt;
+
 
         </code></pre>
 
