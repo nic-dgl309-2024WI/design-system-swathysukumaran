@@ -5,7 +5,7 @@
     <meta charset="UTF-8"> <!-- Character encoding declaration -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Viewport settings for responsive design -->
-    <title>Document</title> <!-- Title of the HTML document -->
+    <title>Navbars</title> <!-- Title of the HTML document -->
     <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet for general styles -->
     <link rel="stylesheet" href="design-system.css">
     <!-- Link to external stylesheet for design system specific styles -->
@@ -15,31 +15,32 @@
 
 <body class="bg-primary"> <!-- Body of the HTML document with a class for background color -->
 
-    <!-- Header section with nav -->
-    <header class="c-top-navbar full-width u-bg-secondary l-position-fixed-top-left">
+    <!-- Header section -->
+    <header class="c-top-navbar u-bg-secondary">
         <div class="c-top-navbar__logo-container">
-            <!-- Logo -->
             <div class="c-top-navbar__logo">
                 <a href="index.html" class="c-top-navbar__logo u-text-primary  ">
-                <h3 class="u-heading u-heading-3 u-heading-line-height u-heading-spacing">Design System</h3>
+                    <h2 class="u-heading u-heading-2 u-heading-line-height u-heading-spacing">Design System</h2>
+                    <!-- Logo and link to home page -->
                 </a>
             </div>
             <!-- Hamburger button for mobile navbar -->
             <div class="c-top-navbar__hamburger-menu u-text-primary " onclick="toggleMobileMenu()">
-                <i id="toggle-icon" class="fa fa-bars"></i>
+                <i id="toggle-icon" class="fa fa-bars"></i> <!-- Icon for the hamburger menu -->
             </div>
+            <!-- Navigation menu -->
             <nav class="c-top-navbar__nav" id="nav-menu">
                 <ul class="c-top-navbar__list">
                     <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
-                            class="u-no-style-link u-text-primary u-body-text">About Me</a></li>
+                            class="u-no-style-link u-text-primary u-body-text">About Me</a></li> <!-- About Me link -->
                     <li class="u-li-padding c-top-navbar__item "><a href="#"
                             class="u-no-style-link u-text-primary u-body-text ">Demo Site</a></li>
+                    <!-- Demo Site link with active class indicating current page -->
                 </ul>
             </nav>
         </div>
-    
     </header>
-    
+
     <!-- Sidebar -->
     <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
     <aside class="c-sidebar  u-bg-secondary l-pl-1 " id="sidebar">
@@ -52,29 +53,33 @@
                     <li class="u-li-padding"><a href="colours.html"
                             class="u-no-style-link u-text-primary u-body-text ">01
                             Colors</a></li>
-                    <li class="u-li-padding"><a href="typography.html" class="u-no-style-link u-text-primary u-body-text">02
+                    <li class="u-li-padding"><a href="typography.html"
+                            class="u-no-style-link u-text-primary u-body-text">02
                             Typography</a></li>
-    
+
                 </ul>
             </section>
-    
+
             <!-- Navlinks for utilities -->
             <section class="c-sidebar__section">
                 <h4 class="c-sidebar__heading u-heading u-heading-4">Utilities</h4>
                 <ul class="c-sidebar__list">
-                    <li class="u-li-padding"><a href="spacing.html" class="u-no-style-link u-text-primary u-body-text">03
+                    <li class="u-li-padding"><a href="spacing.html"
+                            class="u-no-style-link u-text-primary u-body-text">03
                             Spacing</a>
                     </li>
-                    <li class="u-li-padding"><a href="containers.html" class="u-no-style-link u-text-primary u-body-text active">04
+                    <li class="u-li-padding"><a href="containers.html"
+                            class="u-no-style-link u-text-primary u-body-text">04
                             Containers</a></li>
                 </ul>
             </section>
-    
+
             <!-- Navlinks for navigation -->
             <section class="c-sidebar__section">
                 <h4 class="c-sidebar__heading u-heading u-heading-4">Navigation</h4>
                 <ul class="c-sidebar__list">
-                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">05 Navbars</a>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text active">05
+                            Navbars</a>
                     </li>
                     <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">06
                             Breadcrumbs</a></li>
@@ -82,17 +87,20 @@
                             Pagination & Carousel</a></li>
                 </ul>
             </section>
-    
+
             <!-- Navlinks for blocks -->
             <section class="c-sidebar__section">
                 <h4 class="c-sidebar__heading u-heading u-heading-4">Blocks</h4>
                 <ul class="c-sidebar__list">
-                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">08 Hero</a></li>
-                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">09 Footer</a>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">08 Hero</a>
+                    </li>
+
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">09
+                            Footer</a>
                     </li>
                 </ul>
             </section>
-    
+
             <!-- Navlinks for components -->
             <section class="c-sidebar__section">
                 <h4 class="c-sidebar__heading u-heading u-heading-4">Components</h4>
@@ -101,7 +109,8 @@
                     </li>
                     <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">11 Forms</a>
                     </li>
-                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">12 Accordion</a>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">12
+                            Accordion</a>
                     </li>
                     <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">13 Lists</a>
                     </li>
@@ -109,73 +118,47 @@
             </section>
         </nav>
     </aside>
-    <main class="c-main-section l-m-1-5">
-        <div class="l-m-auto max-width">
-            <h1 class="u-heading u-heading-1 l-my-3">Containers</h1>
-
-            <section class="l-my-3 ">
-                <h3 class="u-heading u-heading-3 l-my-1">Flexible Layout Classes</h3>
-                <table class="c-contrast-table u-border-collapse u-border-1">
-                <tr class="c-contrast-table__title-row">
-                    <th class=" l-p-1">Class name</th>
-                    <th class=" l-p-1">Css Property</th>
-                    <th class=" l-p-1">Value</th>
-                
-                </tr>
-                <tr >
-                    <td class=" ">l-flex</td>
-                    <td class=" l-p-1">display</td>
-                    <td class=" l-p-1">flex</td>
-                
-                </tr>
-                <tr >
-                    <td class=" l-p-1">l-direction-row</td>
-                    <td class=" l-p-1">flex-direction</td>
-                    <td class=" l-p-1">row</td>
-                </tr>
-                <tr>
-                    <td class=" l-p-1">l-direction-column</td>
-                    <td class=" l-p-1">flex-direction</td>
-                    <td class=" l-p-1">column</td>
-                </tr>
-               
-                
-                </table>
-
-            </section>
-            <section>
-                <h3  class="u-heading u-heading-3 l-my-1">Container Classes</h3>
-                <table class="c-contrast-table u-border-collapse u-border-1">
-                <tr class="c-contrast-table__title-row">
-                    <th class=" l-p-1">Class name</th>
-                    <th class=" l-p-1">Css Property</th>
-                    <th class=" l-p-1">Value</th>
-            
-                </tr>
-                <tr>
-                    <td class=" l-p-1">max-width</td>
-                    <td class=" l-p-1">max-width</td>
-                    <td class=" l-p-1">480px (Mobile) , 1240px (Desktop)</td>
-            
-                </tr>
-                <tr>
-                    <td class=" l-p-1">full-width</td>
-                    <td class=" l-p-1">width</td>
-                    <td class=" l-p-1">100%</td>
-                </tr>
-                <tr>
-                    <td class=" l-p-1">desktop-full-width</td>
-                    <td class=" l-p-1">width</td>
-                    <td class=" l-p-1">calc(100% - 256px)</td>
-                </tr>
-            
-            
-                </table>
-            
-            </section>
+    <main class="c-main-section  l-p-2">
+        <h1 class="u-heading u-heading-1 u-heading-line-height u-heading-spacing">
+            Navbars
+        </h1>
+        <p class="u-body">Navbars are essential UI components typically located at the top of a webpage or application interface. They provide
+        navigation links to various sections or pages within the site, aiding users in moving around the platform efficiently.
+        Additionally, navbars often include branding elements like logos and can incorporate interactive features such as search
+        bars or dropdown menus.
+        </p>
+        
+                <nav class="c-top-navbar__nav u-mt-2" id="nav-menu">
+                    <ul class="c-top-navbar__list">
+                        <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
+                                class="u-no-style-link u-text-primary u-body-text">Products</a></li>
+                        <li class="u-li-padding c-top-navbar__item "><a href="coming-soon.html"
+                                class="u-no-style-link u-text-primary u-body-text ">Resources</a></li>
+                        <li class="u-li-padding c-top-navbar__item "><a href="coming-soon.html"
+                                class="u-no-style-link u-text-primary u-body-text ">About us</a></li>
+                        <li class="u-li-padding c-top-navbar__item "><a href="coming-soon.html"
+                                class="u-no-style-link u-text-primary u-body-text ">Contact us</a></li>
+                    </ul>
+                </nav>
+        <h4 class="u-heading u-heading-4">Code</h4>
+        <div class="c-code-block u-bg-secondary u-rounded-four">
+        <pre><code>
+        <nav class="c-top-navbar__nav" id="nav-menu">
+            <ul class="c-top-navbar__list">
+                <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
+                        class="u-no-style-link u-text-primary u-body-text">Products</a></li>
+                <li class="u-li-padding c-top-navbar__item "><a href="coming-soon.html"
+                        class="u-no-style-link u-text-primary u-body-text ">Resources</a></li>
+                <li class="u-li-padding c-top-navbar__item "><a href="coming-soon.html"
+                        class="u-no-style-link u-text-primary u-body-text ">About us</a></li>
+                <li class="u-li-padding c-top-navbar__item "><a href="coming-soon.html"
+                        class="u-no-style-link u-text-primary u-body-text ">Contact us</a></li>
+            </ul>
+        </nav>
+        </code></pre>
         </div>
+            
     </main>
-
     <script src="design-system.js"></script> <!-- JavaScript file for functionality -->
 </body>
 

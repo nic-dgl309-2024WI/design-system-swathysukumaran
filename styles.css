@@ -189,6 +189,9 @@ body {
 .u-rounded-corners{
     border-radius: 0px 10px 0px 10px;
 }
+.u-rounded-four{
+    border-radius:10px;
+}
 
 /* Border box fix */
 * {
