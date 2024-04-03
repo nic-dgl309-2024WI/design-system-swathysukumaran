@@ -723,7 +723,9 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+.c-notice{
+    justify-content: space-around;
+}
 .c-hero-container{
     flex-direction: column;
 }
