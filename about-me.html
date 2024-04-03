@@ -9,47 +9,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header class="c-top-navbar full-width u-bg-secondary l-position-fixed-top-left">
-      <!-- Logo -->
+    <!-- Header section -->
+    <header class="c-top-navbar u-bg-secondary">
       <div class="c-top-navbar__logo-container">
         <div class="c-top-navbar__logo">
           <a href="design-system.html" class="c-top-navbar__logo u-text-primary  ">
             <h2 class="u-heading u-heading-2 u-heading-line-height u-heading-spacing">Design System</h2>
+            <!-- Logo and link to home page -->
           </a>
         </div>
         <!-- Hamburger button for mobile navbar -->
         <div class="c-top-navbar__hamburger-menu u-text-primary " onclick="toggleMobileMenu()">
-          <i id="toggle-icon" class="fa fa-bars"></i>
+          <i id="toggle-icon" class="fa fa-bars"></i> <!-- Icon for the hamburger menu -->
         </div>
-        <!-- Top navbar -->
+        <!-- Navigation menu -->
         <nav class="c-top-navbar__nav" id="nav-menu">
           <ul class="c-top-navbar__list">
             <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
-                class="u-no-style-link u-text-primary u-body-text active">About Me</a></li>
+                class="u-no-style-link u-text-primary u-body-text">About Me</a></li> <!-- About Me link -->
             <li class="u-li-padding c-top-navbar__item "><a href="index.html"
                 class="u-no-style-link u-text-primary u-body-text ">Demo Site</a></li>
+            <!-- Demo Site link with active class indicating current page -->
           </ul>
         </nav>
       </div>
-    
     </header>
+    
+    <!-- Sidebar -->
+    <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
     <aside class="c-sidebar  u-bg-secondary l-pl-1 " id="sidebar">
       <!-- Navigation links -->
       <nav class="c-sidebar__nav ">
         <!-- Navlinks for brand item -->
         <section class="c-sidebar__section">
-          <h3 class="c-sidebar__heading u-heading u-heading-3">Your Brand</h3>
+          <h4 class="c-sidebar__heading u-heading u-heading-4">Your Brand</h4>
           <ul class="c-sidebar__list " id="side-menu">
             <li class="u-li-padding"><a href="colours.html" class="u-no-style-link u-text-primary u-body-text ">01
                 Colors</a></li>
             <li class="u-li-padding"><a href="typography.html" class="u-no-style-link u-text-primary u-body-text">02
                 Typography</a></li>
-            
+    
+          </ul>
         </section>
     
         <!-- Navlinks for utilities -->
         <section class="c-sidebar__section">
-          <h3 class="c-sidebar__heading u-heading u-heading-3">Utilities</h3>
+          <h4 class="c-sidebar__heading u-heading u-heading-4">Utilities</h4>
           <ul class="c-sidebar__list">
             <li class="u-li-padding"><a href="spacing.html" class="u-no-style-link u-text-primary u-body-text">03
                 Spacing</a>
@@ -61,7 +66,7 @@
     
         <!-- Navlinks for navigation -->
         <section class="c-sidebar__section">
-          <h3 class="c-sidebar__heading u-heading u-heading-3">Navigation</h3>
+          <h4 class="c-sidebar__heading u-heading u-heading-4">Navigation</h4>
           <ul class="c-sidebar__list">
             <li class="u-li-padding"><a href="navbars.html" class="u-no-style-link u-text-primary u-body-text">05 Navbars</a>
             </li>
@@ -74,10 +79,10 @@
     
         <!-- Navlinks for blocks -->
         <section class="c-sidebar__section">
-          <h3 class="c-sidebar__heading u-heading u-heading-3">Blocks</h3>
+          <h4 class="c-sidebar__heading u-heading u-heading-4">Blocks</h4>
           <ul class="c-sidebar__list">
             <li class="u-li-padding"><a href="hero.html" class="u-no-style-link u-text-primary u-body-text">08 Hero</a></li>
-           
+    
             <li class="u-li-padding"><a href="footer.html" class="u-no-style-link u-text-primary u-body-text">09 Footer</a>
             </li>
           </ul>
@@ -85,7 +90,7 @@
     
         <!-- Navlinks for components -->
         <section class="c-sidebar__section">
-          <h3 class="c-sidebar__heading u-heading u-heading-3">Components</h3>
+          <h4 class="c-sidebar__heading u-heading u-heading-4">Components</h4>
           <ul class="c-sidebar__list">
             <li class="u-li-padding"><a href="cards.html" class="u-no-style-link u-text-primary u-body-text">10 Cards</a>
             </li>
