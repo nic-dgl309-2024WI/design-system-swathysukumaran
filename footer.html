@@ -1,0 +1,197 @@
+<!DOCTYPE html> <!-- Declaration of the HTML5 document type -->
+<html lang="en"> <!-- Start of the HTML document with the language set to English -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding declaration -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Viewport settings for responsive design -->
+    <title>Navbars</title> <!-- Title of the HTML document -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet for general styles -->
+    <link rel="stylesheet" href="design-system.css">
+    <!-- Link to external stylesheet for design system specific styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link to Font Awesome stylesheet -->
+</head>
+
+<body class="bg-primary"> <!-- Body of the HTML document with a class for background color -->
+
+    <!-- Header section with nav -->
+    <header class="c-top-navbar full-width u-bg-secondary l-position-fixed-top-left">
+        <div class="c-top-navbar__logo-container">
+            <!-- Logo -->
+            <div class="c-top-navbar__logo">
+                <a href="index.html" class="c-top-navbar__logo u-text-primary  ">
+                    <h3 class="u-heading u-heading-3 u-heading-line-height u-heading-spacing">Design System</h3>
+                </a>
+            </div>
+            <!-- Hamburger button for mobile navbar -->
+            <div class="c-top-navbar__hamburger-menu u-text-primary " onclick="toggleMobileMenu()">
+                <i id="toggle-icon" class="fa fa-bars"></i>
+            </div>
+            <nav class="c-top-navbar__nav" id="nav-menu">
+                <ul class="c-top-navbar__list">
+                    <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
+                            class="u-no-style-link u-text-primary u-body-text">About Me</a></li>
+                    <li class="u-li-padding c-top-navbar__item "><a href="#"
+                            class="u-no-style-link u-text-primary u-body-text ">Demo Site</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+    
+    <!-- Sidebar -->
+    <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
+    <aside class="c-sidebar  u-bg-secondary l-pl-1 " id="sidebar">
+        <!-- Navigation links -->
+        <nav class="c-sidebar__nav ">
+            <!-- Navlinks for brand item -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Your Brand</h4>
+                <ul class="c-sidebar__list " id="side-menu">
+                    <li class="u-li-padding"><a href="colours.html"
+                            class="u-no-style-link u-text-primary u-body-text ">01
+                            Colors</a></li>
+                    <li class="u-li-padding"><a href="typography.html" class="u-no-style-link u-text-primary u-body-text">02
+                            Typography</a></li>
+    
+                </ul>
+            </section>
+    
+            <!-- Navlinks for utilities -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Utilities</h4>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="spacing.html" class="u-no-style-link u-text-primary u-body-text">03
+                            Spacing</a>
+                    </li>
+                    <li class="u-li-padding"><a href="containers.html" class="u-no-style-link u-text-primary u-body-text">04
+                            Containers</a></li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for navigation -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Navigation</h4>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="navbars.html" class="u-no-style-link u-text-primary u-body-text ">05 Navbars</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">06
+                            Breadcrumbs</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">07
+                            Pagination & Carousel</a></li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for blocks -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Blocks</h4>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="hero.html" class="u-no-style-link u-text-primary u-body-text">08 Hero</a></li>
+    
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text active">09 Footer</a>
+                    </li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for components -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Components</h4>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">10 Cards</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">11 Forms</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">12 Accordion</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">13 Lists</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </aside>
+    <main class="c-main-section  l-p-2">
+        <h1 class="u-heading u-heading-1 u-heading-line-height u-heading-spacing">
+            Footer
+        </h1>
+        <p class="u-body">The footer section is located at the bottom of a webpage. It typically contains important links, such as contact
+        information, privacy policy, and terms of service. Footers often include navigation menus and social media links to help
+        visitors find more content or connect with the website. It serves as a convenient way for users to access additional
+        information or resources before leaving the site.
+        </p>
+        
+            <footer class="c-footer u-bg-secondary">
+                <div class="c-footer__container">
+                    <div class="c-footer__row">
+                        <div class="c-footer__col ">
+                            <img src="./images/outback-nursery-logo.png" alt="Logo" class="c-logo-img">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia accusantium magnam, rem facere
+                                corrupti ipsam, sapiente eius eos culpa aliquid minus facilis debitis quos quis libero distinctio
+                                earum esse.</p>
+                        </div>
+            
+            
+                        <div class="c-footer__col ">
+                            <h4 class="u-heading u-heading-4 u-heading-line-height u u-heading-spacing">Quick Links</h4>
+                            <ul>
+                                <li><a href="coming-soon.html" class="u-text-primary">About us</a></li>
+                                <li><a href="coming-soon.html" class="u-text-primary">Products</a></li>
+                                <li><a href="coming-soon.html" class="u-text-primary">Resources</a></li>
+            
+            
+                            </ul>
+                        </div>
+                        <div class="c-footer__col">
+                            <h4 class="u-heading u-heading-4 u-heading-line-height u u-heading-spacing">follow us</h4>
+                            <div class="c-footer__social-links">
+                                <a href="coming-soon.html" class="u-text-primary "><i class="fa fa-facebook-square "
+                                        aria-hidden="true"></i></a>
+                                <a href="coming-soon.html" class="u-text-primary"><i class="fa fa-instagram "
+                                        aria-hidden="true"></i></a>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        <h4 class="u-heading u-heading-4">Code</h4>
+        <div class="c-code-block u-bg-secondary u-rounded-four">
+        <pre><code>
+        &lt;footer class="c-footer u-bg-secondary"&gt;
+        &lt;div class="c-footer__container"&gt;
+        &lt;div class="c-footer__row"&gt;
+        &lt;div class="c-footer__col "&gt;
+        &lt;img src="./images/outback-nursery-logo.png" alt="Logo" class="c-logo-img"&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia accusantium magnam, rem facere corrupti
+        ipsam, sapiente eius eos culpa aliquid minus facilis debitis quos quis libero distinctio earum esse.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="c-footer__col "&gt;
+        &lt;h4 class="u-heading u-heading-4 u-heading-line-height u u-heading-spacing"&gt;Quick Links&lt;/h4&gt;
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href="coming-soon.html" class="u-text-primary"&gt;About us&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="coming-soon.html" class="u-text-primary"&gt;Products&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="coming-soon.html" class="u-text-primary"&gt;Resources&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="c-footer__col"&gt;
+        &lt;h4 class="u-heading u-heading-4 u-heading-line-height u u-heading-spacing"&gt;follow us&lt;/h4&gt;
+        &lt;div class="c-footer__social-links"&gt;
+        &lt;a href="coming-soon.html" class="u-text-primary "&gt;&lt;i class="fa fa-facebook-square "
+        aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a href="coming-soon.html" class="u-text-primary"&gt;&lt;i class="fa fa-instagram " aria-hidden="true"
+        &gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/footer&gt;
+
+        </code></pre>
+
+        </div>
+            
+    </main>
+    <script src="design-system.js"></script> <!-- JavaScript file for functionality -->
+</body>
+
+</html>
