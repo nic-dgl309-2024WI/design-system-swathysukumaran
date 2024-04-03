@@ -1,0 +1,247 @@
+<!DOCTYPE html> <!-- Declaration of the HTML5 document type -->
+<html lang="en"> <!-- Start of the HTML document with the language set to English -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding declaration -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Viewport settings for responsive design -->
+    <title>Navbars</title> <!-- Title of the HTML document -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet for general styles -->
+    <link rel="stylesheet" href="design-system.css">
+    <!-- Link to external stylesheet for design system specific styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link to Font Awesome stylesheet -->
+</head>
+
+<body class="bg-primary"> <!-- Body of the HTML document with a class for background color -->
+
+    <!-- Header section with nav -->
+    <header class="c-top-navbar full-width u-bg-secondary l-position-fixed-top-left">
+        <div class="c-top-navbar__logo-container">
+            <!-- Logo -->
+            <div class="c-top-navbar__logo">
+                <a href="index.html" class="c-top-navbar__logo u-text-primary  ">
+                    <h3 class="u-heading u-heading-3 u-heading-line-height u-heading-spacing">Design System</h3>
+                </a>
+            </div>
+            <!-- Hamburger button for mobile navbar -->
+            <div class="c-top-navbar__hamburger-menu u-text-primary " onclick="toggleMobileMenu()">
+                <i id="toggle-icon" class="fa fa-bars"></i>
+            </div>
+            <nav class="c-top-navbar__nav" id="nav-menu">
+                <ul class="c-top-navbar__list">
+                    <li class="u-li-padding c-top-navbar__item "><a href="about-me.html"
+                            class="u-no-style-link u-text-primary u-body-text">About Me</a></li>
+                    <li class="u-li-padding c-top-navbar__item "><a href="#"
+                            class="u-no-style-link u-text-primary u-body-text ">Demo Site</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+    
+    <!-- Sidebar -->
+    <!-- Referred https://stackoverflow.com/questions/8407805/best-html5-markup-for-sidebar -->
+    <aside class="c-sidebar  u-bg-secondary l-pl-1 " id="sidebar">
+        <!-- Navigation links -->
+        <nav class="c-sidebar__nav ">
+            <!-- Navlinks for brand item -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Your Brand</h4>
+                <ul class="c-sidebar__list " id="side-menu">
+                    <li class="u-li-padding"><a href="colours.html"
+                            class="u-no-style-link u-text-primary u-body-text ">01
+                            Colors</a></li>
+                    <li class="u-li-padding"><a href="typography.html" class="u-no-style-link u-text-primary u-body-text">02
+                            Typography</a></li>
+    
+                </ul>
+            </section>
+    
+            <!-- Navlinks for utilities -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Utilities</h4>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="spacing.html" class="u-no-style-link u-text-primary u-body-text">03
+                            Spacing</a>
+                    </li>
+                    <li class="u-li-padding"><a href="containers.html" class="u-no-style-link u-text-primary u-body-text">04
+                            Containers</a></li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for navigation -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Navigation</h4>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="navbars.html" class="u-no-style-link u-text-primary u-body-text ">05 Navbars</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">06
+                            Breadcrumbs</a></li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">07
+                            Pagination & Carousel</a></li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for blocks -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Blocks</h4>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="hero.html" class="u-no-style-link u-text-primary u-body-text">08 Hero</a></li>
+    
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text ">09 Footer</a>
+                    </li>
+                </ul>
+            </section>
+    
+            <!-- Navlinks for components -->
+            <section class="c-sidebar__section">
+                <h4 class="c-sidebar__heading u-heading u-heading-4">Components</h4>
+                <ul class="c-sidebar__list">
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text ">10 Cards</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text ">11 Forms</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text active">12 Accordion</a>
+                    </li>
+                    <li class="u-li-padding"><a href="#" class="u-no-style-link u-text-primary u-body-text">13 Lists</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </aside>
+    <main class="c-main-section  l-p-2">
+        <h1 class="u-heading u-heading-1 u-heading-line-height u-heading-spacing  l-mb-2">
+            Accordion
+        </h1>
+        <p class="u-body">An accordion is a user interface element often used on websites to organize and display content in a collapsible manner.
+        It consists of a series of sections or panels, with one panel visible at a time while the others are hidden. Users can
+        click or tap on a panel's header to expand it and reveal its content, while collapsing previously expanded panels.
+        Accordions are commonly used to conserve space and present information in a structured and easily navigable format.
+        </p>
+        
+            <div class="c-accordion u-bg-secondary l-p-2 u-rounded-corners">
+                <div class="c-accordion__item l-m-auto">
+                    <div class="c-accordion__header u-bg-primary l-flex">
+                        <div class="c-accordion__icon l-mr-1-25">
+                            <img src="images/delivery_3063822.png" class="c-accordion__icon-illustration"
+                                alt="Illustration of a deliveryman on two wheeler">
+                        </div>
+                        <div class="c-accordion__title">
+                            <p>We deliver to your place</p>
+                        </div>
+                    </div>
+                    <div class="c-accordion__content u-bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                        nihil, esse laboriosam ad quisquam sit excepturi obcaecati quod a? Vel.</div>
+                </div>
+                <div class="c-accordion__item u-bg-primary l-m-auto">
+                    <div class="c-accordion__header l-flex">
+                        <div class="c-accordion__icon l-mr-1-25">
+                            <img src="images/tree_1867417.png" class="c-accordion__icon-illustration"
+                                alt="Illustration of a deliveryman on two wheeler">
+                        </div>
+                        <div class="c-accordion__title">
+                            <p>Trees and shrubs are our pride and passion</p>
+                        </div>
+                    </div>
+                    <div class="c-accordion__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet
+                        ullam aut omnis. Delectus doloribus iure omnis voluptas at repellat?</div>
+                </div>
+                <div class="c-accordion__item u-bg-primary l-m-auto">
+                    <div class="c-accordion__header l-flex">
+                        <div class="c-accordion__icon l-mr-1-25">
+                            <img src="images/hedge_4900371.png" class="c-accordion__icon-illustration"
+                                alt="Illustration of a deliveryman on two wheeler">
+                        </div>
+                        <div class="c-accordion__title">
+                            <p>We proudly grow our own hedging</p>
+                        </div>
+                    </div>
+                    <div class="c-accordion__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis
+                        molestias voluptatibus dignissimos sint dolore possimus nihil unde hic harum.</div>
+                </div>
+                <div class="c-accordion__item u-bg-primary l-m-auto">
+                    <div class="c-accordion__header l-flex">
+                        <div class="c-accordion__icon l-mr-1-25">
+                            <img src="images/social-media.png" class="c-accordion__icon-illustration"
+                                alt="Illustration of a deliveryman on two wheeler">
+                        </div>
+                        <div class="c-accordion__title">
+                            <p>We have a strong community of plant lovers</p>
+                        </div>
+                    </div>
+                    <div class="c-accordion__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis
+                        molestias
+                        voluptatibus dignissimos sint dolore possimus nihil unde hic harum.</div>
+                </div>
+            </div>
+        <h4 class="u-heading u-heading-4">Code</h4>
+        <div class="c-code-block u-bg-secondary u-rounded-four">
+        <pre><code>
+            &lt;div class="c-accordion u-bg-secondary l-p-2 u-rounded-corners"&gt;
+            &lt;div class="c-accordion__item l-m-auto"&gt;
+            &lt;div class="c-accordion__header u-bg-primary l-flex"&gt;
+            &lt;div class="c-accordion__icon l-mr-1-25"&gt;
+            &lt;img src="images/delivery_3063822.png"
+            class="c-accordion__icon-illustration"
+            alt="Illustration of a deliveryman on two wheeler"&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__title"&gt;
+            &lt;p&gt;We deliver to your place&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__content u-bg-primary"&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            nihil, esse laboriosam ad quisquam sit excepturi obcaecati quod a? Vel.&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__item u-bg-primary l-m-auto"&gt;
+            &lt;div class="c-accordion__header l-flex"&gt;
+            &lt;div class="c-accordion__icon l-mr-1-25"&gt;
+            &lt;img src="images/tree_1867417.png" class="c-accordion__icon-illustration" alt="Illustration of a deliveryman on two
+            wheeler"&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__title"&gt;
+            &lt;p&gt;Trees and shrubs are our pride and passion&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__content"&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet ullam
+            aut omnis. Delectus doloribus iure omnis voluptas at repellat?&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__item u-bg-primary l-m-auto"&gt;
+            &lt;div class="c-accordion__header l-flex"&gt;
+            &lt;div class="c-accordion__icon l-mr-1-25"&gt;
+            &lt;img src="images/hedge_4900371.png" class="c-accordion__icon-illustration" alt="Illustration of a deliveryman on two
+            wheeler"&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__title"&gt;
+            &lt;p&gt;We proudly grow our own hedging&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__content"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis
+            molestias voluptatibus dignissimos sint dolore possimus nihil unde hic harum.&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__item u-bg-primary l-m-auto"&gt;
+            &lt;div class="c-accordion__header l-flex"&gt;
+            &lt;div class="c-accordion__icon l-mr-1-25"&gt;
+            &lt;img src="images/social-media.png" class="c-accordion__icon-illustration"
+            alt="Illustration of a deliveryman on two wheeler"&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__title"&gt;
+            &lt;p&gt;We have a strong community of plant lovers&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="c-accordion__content"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis
+            molestias
+            voluptatibus dignissimos sint dolore possimus nihil unde hic harum.&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+
+
+        </code></pre>
+
+        </div>
+            
+    </main>
+    <script src="design-system.js"></script> <!-- JavaScript file for functionality -->
+</body>
+
+</html>
