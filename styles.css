@@ -888,7 +888,7 @@ ul {
     margin-bottom: 10px;
 }
 
-.c-footer__col ul li a {
+.c-footer__col__list-item {
     font-size: 16px;
     text-transform: capitalize;
     
@@ -899,8 +899,8 @@ ul {
     transition: all 0.3s ease;
 }
 
-.c-footer__col ul li a:hover {
-   
+.c-footer__col__list-item:hover {
+   text-decoration: underline;
     padding-left: 8px;
 }
 
