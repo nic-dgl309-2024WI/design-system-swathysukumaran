@@ -916,14 +916,24 @@ ul {
     transition: all 0.5s ease;
 }
 
-.c-footer__col .c-footer__social-links a:hover {
-   
-    background-color: #ffffff;
-}
+
 .c-coming-soon-container{
 height:50vh;
 }
+.c-footer__social-links__icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--clr-accent);
+    transition: ease 0.2s;
+    text-decoration: none;
+}
 
+.c-footer__social-links__icon:hover {
+    background-color: var(--clr-accent);
+    color: var(--clr-primary-bg);
+    border: 2px solid var(--clr-primary-bg);
+}
 /*Styling for desktop screen*/
 @media screen and (min-width: 1200px) {
 
