@@ -573,7 +573,7 @@ a:hover {
     /* Styling for active or hovered links */
 }
 .u-button{
-    width:max-content;
+    
     background-color: var(--clr-accent);
     border:none;
     border-radius: 0px 10px 0px 10px;
@@ -684,6 +684,7 @@ a:hover {
 /* Reset default form styles */
 .c-gift-form {
     margin: 0 auto;
+    width: 100%;
 }
 
 /* Form group */
@@ -948,7 +949,9 @@ height:50vh;
         .max-width {
             max-width: 1240px;
         }
-           
+        .u-button{
+            width: max-content;
+        }
         .c-top-navbar__logo-container {
             display: flex;
             align-items: center;
