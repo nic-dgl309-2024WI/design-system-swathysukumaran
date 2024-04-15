@@ -192,7 +192,9 @@ body {
 .u-rounded-four{
     border-radius:10px;
 }
-
+.u-width-100{
+    width: 100%;
+}
 /* Border box fix */
 * {
     box-sizing: border-box;
@@ -974,10 +976,10 @@ height:50vh;
             justify-content: space-between;
         }
         .c-card__img{
-            width: 50%;
+            width: 30%;
         }
         .c-about-us__content{
-            width: 45%;
+            width: 65%;
         }
         .c-accordion__item{
             width: 75%;
