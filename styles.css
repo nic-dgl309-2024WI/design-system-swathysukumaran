@@ -572,14 +572,21 @@ a:hover {
     color: var(--clr-accent);
     /* Styling for active or hovered links */
 }
-.u-button{
-    
+
+.c-button {
+
     background-color: var(--clr-accent);
-    border:none;
+    border: none;
     border-radius: 0px 10px 0px 10px;
     padding: 0.5rem 2rem;
 }
+.c-button:hover {
 
+    background-color: var(--clr-primary-bg);
+    border: 2px solid var(--clr-accent);
+    color: var(--clr-accent);
+    text-decoration: none;
+}
 
 /* Position top nav */
 
@@ -951,8 +958,15 @@ height:50vh;
         .max-width {
             max-width: 1240px;
         }
-        .u-button{
+        .c-button{
             width: max-content;
+            display: block;
+                
+                padding: 10px;
+                border: none;
+                border-radius: 0px 10px 0px 10px;
+                cursor: pointer;
+                transition: background-color 0.3s;
         }
         .c-top-navbar__logo-container {
             display: flex;
