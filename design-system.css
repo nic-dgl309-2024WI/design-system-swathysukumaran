@@ -137,8 +137,11 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .c-code-block{
-    max-width:100%;
+   
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;    /* Allow horizontal scrolling if content overflows */
+    max-width: 100%;     /* Ensure code block doesn't exceed its container's width */
+    white-space: pre-wrap;     /* Wrap long lines */
     
 }
 
