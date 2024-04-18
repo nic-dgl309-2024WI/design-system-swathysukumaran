@@ -925,15 +925,17 @@ height:50vh;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid var(--clr-accent);
+    border: 2px solid var(--clr-primary-bg);
+    background-color: var(--clr-accent);
+    color: var(--clr-primary-bg);
     transition: ease 0.2s;
     text-decoration: none;
 }
 
 .c-footer__social-links__icon:hover {
-    background-color: var(--clr-accent);
-    color: var(--clr-primary-bg);
-    border: 2px solid var(--clr-primary-bg);
+    background-color: var(--clr-primary-bg);
+    color: var(--clr-accent);
+    border: 2px solid var(--clr-accent);
 }
 /*Styling for desktop screen*/
 @media screen and (min-width: 1200px) {
