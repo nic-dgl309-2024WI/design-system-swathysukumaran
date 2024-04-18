@@ -153,12 +153,12 @@ body {
 }
 
 .u-heading-spacing {
-    font-weight: var(--letter-spacing-heading);
+    letter-spacing: var(--letter-spacing-heading);
     /* Heading letter spacing */
 }
 
 .u-body-spacing {
-    font-weight: var(--letter-spacing-body);
+    letter-spacing: var(--letter-spacing-body);
     /* Body letter spacing */
 }
 /* hide content */
