@@ -195,6 +195,7 @@ body {
 .u-width-100{
     width: 100%;
 }
+/* Referenced from ChatGpt to hide an element */
 .visually-hidden {
     position: absolute;
     width: 1px;
