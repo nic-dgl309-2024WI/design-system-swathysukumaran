@@ -817,6 +817,7 @@ button {
     /* Column layout */
     justify-content: space-between;
     /* Spacing between items */
+    align-items: center;
 }
 
 /* About us container styles */
