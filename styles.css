@@ -665,6 +665,7 @@ a:hover {
     /* Sets z-index */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     /* Adds box shadow */
+    width: max-content;
 }
 
 /* Styles for top image in card */
