@@ -520,6 +520,12 @@ li {
 /* Justify to space around */
 .l-justify-space-around {
     justify-content:space-around;
+    
+}
+/* Justify to space between */
+.l-justify-space-between {
+    justify-content: space-between;
+    gap: 1.5rem;
 }
 /* Vertical alignment top */
 .l-vtl-alignment-top {

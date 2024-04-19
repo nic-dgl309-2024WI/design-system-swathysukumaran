@@ -36,7 +36,10 @@ body {
 .c-main-section{
     margin-top: 120px;
 }
-
+.c-intro-content{
+    flex-direction: column;
+   
+}
 /* Swatches in colors.html */
 .c-swatch {
     display: inline-block;
@@ -195,7 +198,16 @@ input[type="radio"] {
             left: 0;
             z-index: 1;
     }
-
+        .c-intro-content {
+            flex-direction: row;
+            /* paragraphs in two column */
+            width: 90%;
+            margin: auto;
+            
+        }
+        .c-intro-content__block{
+            max-width: 45%;
+        }
     
     /* main section */
         .c-main-section{
