@@ -525,7 +525,7 @@ li {
 /* Justify to space between */
 .l-justify-space-between {
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 /* Vertical alignment top */
 .l-vtl-alignment-top {
